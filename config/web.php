@@ -21,6 +21,7 @@ $config = [
                     'usernameField' => 'login', // id field of model User
                 ]
             ],
+            
         ],
     ],
     'as access' => [
@@ -135,7 +136,7 @@ if (YII_ENV_DEV) {
     $config['bootstrap'][] = 'gii';
     $config['modules']['gii'] = [
         'class' => 'yii\gii\Module',
-        'allowedIPs' => ['127.0.0.1', '::1', '192.168.*', '178.158.147.93', '*'],
+        'allowedIPs' => ['127.0.0.1', '::1', '192.168.*', '178.158.147.93', '130.211.93.253', '*'],
         'generators' => [
             'crud' => [
 //                'class'     => 'yii\gii\generators\crud\Generator',
