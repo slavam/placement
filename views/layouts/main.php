@@ -40,8 +40,8 @@ AppAsset::register($this);
                 ['label' => 'Справочники', 'items' => $menu['dir']],
                 ['label' => 'Данные', 'items' => $menu['data']],
                 ['label' => 'Документы', 'items' => $menu['doc']],
-                ['label' => 'Отчеты', 'items' => $menu['report']],
-                ['label' => 'Прочее', 'items' => $menu['other']],
+                ['label' => 'Отчеты', 'items' => $menu['report'], 'visible' => Yii::$app->user->can('admin')],
+                ['label' => 'Прочее', 'items' => $menu['other'], 'visible' => Yii::$app->user->can('admin')]
             ]
         ]);
     }

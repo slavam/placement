@@ -50,7 +50,7 @@ class MainMenu
                     ['label' => Yii::t('app', 'Registration'), 'url' => ['/doc-registration/index'], 'visible' => Yii::$app->user->can('/doc-registration/index')],
                 ],
                 'report' => [
-                    ['label' => Yii::t('app', 'Общий отчет'), 'url' => ['/report/1'], 'visible' => Yii::$app->user->can('/report/1')],
+                    ['label' => Yii::t('app', 'Общий отчет'), 'url' => ['/report/1'], 'visible' => Yii::$app->user->can('admin')], //'/report/1')],
                 ],
                 'other' => [
                     ['label' => Yii::t('app', 'История общения с соискателями и работодателями'), 'url' => ['/site/report/2'], 'visible' => Yii::$app->user->can('/site/report/2')],

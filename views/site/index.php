@@ -65,36 +65,38 @@ $this->title = Yii::$app->name;
                         ?>
                     </div>
                 </div>
-                <div class="col-lg-4">
-                    <h2>Отчеты</h2>
-                    <div id="manager-menu" class="list-group">
-                        <?php
-                        foreach ($menu['report'] as $menu_item) {
-                            $label = \yii\helpers\Html::tag('i', '', ['class' => 'glyphicon glyphicon-chevron-right pull-right']) .
-                                \yii\helpers\Html::tag('span', \yii\helpers\Html::encode($menu_item['label']), []);
-                            $disabled = $menu_item['visible']?'':' disabled';
-                            echo \yii\helpers\Html::a($label, ($disabled?'#':$menu_item['url']), [
-                                'class' => 'list-group-item' . $disabled,
-                            ]);
-                        }
-                        ?>
+                <?php if (Yii::$app->user->can('admin')){ ?>
+                    <div class="col-lg-4">
+                        <h2>Отчеты</h2>
+                        <div id="manager-menu" class="list-group">
+                            <?php
+                            foreach ($menu['report'] as $menu_item) {
+                                $label = \yii\helpers\Html::tag('i', '', ['class' => 'glyphicon glyphicon-chevron-right pull-right']) .
+                                    \yii\helpers\Html::tag('span', \yii\helpers\Html::encode($menu_item['label']), []);
+                                $disabled = $menu_item['visible']?'':' disabled';
+                                echo \yii\helpers\Html::a($label, ($disabled?'#':$menu_item['url']), [
+                                    'class' => 'list-group-item' . $disabled,
+                                ]);
+                            }
+                            ?>
+                        </div>
                     </div>
-                </div>
-                <div class="col-lg-4">
-                    <h2>Прочее</h2>
-                    <div id="manager-menu" class="list-group">
-                        <?php
-                        foreach ($menu['other'] as $menu_item) {
-                            $label = \yii\helpers\Html::tag('i', '', ['class' => 'glyphicon glyphicon-chevron-right pull-right']) .
-                                \yii\helpers\Html::tag('span', \yii\helpers\Html::encode($menu_item['label']), []);
-                            $disabled = $menu_item['visible']?'':' disabled';
-                            echo \yii\helpers\Html::a($label, ($disabled?'#':$menu_item['url']), [
-                                'class' => 'list-group-item' . $disabled,
-                            ]);
-                        }
-                        ?>
+                    <div class="col-lg-4">
+                        <h2>Прочее</h2>
+                        <div id="manager-menu" class="list-group">
+                            <?php
+                            foreach ($menu['other'] as $menu_item) {
+                                $label = \yii\helpers\Html::tag('i', '', ['class' => 'glyphicon glyphicon-chevron-right pull-right']) .
+                                    \yii\helpers\Html::tag('span', \yii\helpers\Html::encode($menu_item['label']), []);
+                                $disabled = $menu_item['visible']?'':' disabled';
+                                echo \yii\helpers\Html::a($label, ($disabled?'#':$menu_item['url']), [
+                                    'class' => 'list-group-item' . $disabled,
+                                ]);
+                            }
+                            ?>
+                        </div>
                     </div>
-                </div>
+                <?php } ?>
             </div>
 
         </div>
