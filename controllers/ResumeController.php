@@ -43,7 +43,8 @@ class ResumeController extends Controller
         $searchModel = new ResumeSearch();
         $dataProvider = $searchModel->search(Yii::$app->request->queryParams);
         // Жадная загрузка
-        // $dataProvider->query->joinWith(['professions']);
+        // Profession::className(), ['id' => 'profession_id'])->viaTable(ResumeProfession::tableName(), ['resume_id' => 'id']
+        // $dataProvider->query->joinWith(['resumeProfessions']);
 
         return $this->render('index', [
             'searchModel' => $searchModel,

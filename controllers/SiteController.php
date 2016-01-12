@@ -49,6 +49,9 @@ class SiteController extends Controller
 
     public function actionIndex()
     {
+        if (\Yii::$app->user->can('employer'))
+          return $this->redirect('/web/resume/index');
+
         return $this->render('index');
     }
 

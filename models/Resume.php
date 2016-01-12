@@ -56,9 +56,10 @@ class Resume extends \yii\db\ActiveRecord
 //            [['person_id'], 'required'],
             [['person_id', 'vacancy_id', 'resume_status_id', 'workplace_id', 'rec_status_id', 'user_id'], 'integer'],
             [['salary'], 'number'],
-            [['professions', 'date_start', 'date_end', 'dc'], 'safe'],
+            [['resumeProfessions','professions', 'date_start', 'date_end', 'dc'], 'safe'],
             [['note'], 'string'],
             ['person_id', 'exist', 'targetClass' => Person::className(), 'targetAttribute' => 'id'],
+            // ['profession_id', 'exist', 'targetClass' => ResumeProfession::className(), 'targetAttribute' => 'profession_id'],
         ];
     }
 
@@ -76,6 +77,7 @@ class Resume extends \yii\db\ActiveRecord
     {
         return [
             'professionNames' => Yii::t('app', 'Желаемые должности'),
+            'resumeProfessions' => Yii::t('app', 'Желаемые Должности'),
             'professions' => Yii::t('app', 'Желаемые должности'),
             'id' => Yii::t('app', 'ID'),
             'person_id' => Yii::t('app', 'Соискатель'),
@@ -202,6 +204,11 @@ class Resume extends \yii\db\ActiveRecord
     public function getResumeProfessions()
     {
         return $this->hasMany(ResumeProfession::className(), ['resume_id' => 'id']);
+    }
+    
+    public function setResumeProfessions($resumeProfessions)
+    {
+        $this->resumeProfessions = $resumeProfessions;
     }
 
     /**

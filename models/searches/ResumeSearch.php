@@ -12,6 +12,7 @@ use app\models\Resume;
  */
 class ResumeSearch extends Resume
 {
+    // public $professions;
     /**
      * @inheritdoc
      */
@@ -20,7 +21,7 @@ class ResumeSearch extends Resume
         return [
             [['id', 'person_id', 'vacancy_id', 'resume_status_id', 'workplace_id', 'rec_status_id', 'user_id'], 'integer'],
             [['salary'], 'number'],
-            [['date_start', 'date_end', 'note', 'dc'], 'safe'],
+            [['resumeProfessions', 'date_start', 'date_end', 'note', 'dc'], 'safe'],
         ];
     }
 
@@ -43,10 +44,11 @@ class ResumeSearch extends Resume
     public function search($params)
     {
         $query = Resume::find();
-
+        $query->joinWith(['resumeProfessions']);
         $dataProvider = new ActiveDataProvider([
             'query' => $query,
         ]);
+        
 
         $this->load($params);
 
@@ -72,6 +74,11 @@ class ResumeSearch extends Resume
 
         $query->andFilterWhere(['like', 'note', $this->note]);
 
+        if(isset($this->resumeProfessions) and ($this->resumeProfessions>'')){
+            $query->andWhere(['resume_profession.profession_id' => $this->resumeProfessions]);
+        }
+
+// var_dump($query->prepare(Yii::$app->db->queryBuilder)->createCommand()->rawSql);        
         return $dataProvider;
     }
 }

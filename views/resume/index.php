@@ -3,6 +3,7 @@
 use yii\helpers\ArrayHelper;
 use yii\helpers\Html;
 use yii\widgets\ListView;
+use yii\grid\GridView;
 
 /* @var $this yii\web\View */
 /* @var $searchModel app\models\searches\ResumeSearch */
@@ -21,24 +22,33 @@ $this->params['breadcrumbs'][] = $this->title;
     </p>
 
     <div class="clearfix"></div>
+    
+    <?php \yii\widgets\Pjax::begin(); ?>
 
+    <?= GridView::widget([
+        'dataProvider' => $dataProvider,
+        'filterModel' => $searchModel,
+        'columns' => [
+            ['class' => 'yii\grid\SerialColumn'],
 
-    <div class="row">
+            'person_id' => [
+                'attribute'=>'person_id',
+                'value'=>'person.fullname',
+                'filter'=>ArrayHelper::map(\app\models\Person::find()->active()->all(), 'id', 'lname'),
+            ],
+            'professionNames' => [
+                'attribute'=>'resumeProfessions',
+                'value'=>'professionNames',
+                'filter'=>ArrayHelper::map(\app\models\Profession::find()->active()->all(), 'id', 'name'),
+            ],
+            'salary',
 
-        <?php \yii\widgets\Pjax::begin(); ?>
+            ['class' => 'yii\grid\ActionColumn', 'contentOptions' => ['style' => 'white-space: nowrap;']],
+        ],
+        'tableOptions' =>['class' => 'table table-striped table-hover'],
+    ]); ?>
 
-        <?= ListView::widget([
-            'dataProvider' => $dataProvider,
-            'itemOptions' => ['class' => 'col-6 col-sm-6 col-lg-6'],
-            'layout' => '<div>{summary}{pager}</div><div>{items}</div>',
-            'itemView' => '_item',
-//        'itemView' => function ($model, $key, $index, $widget) {
-//            return Html::a(Html::encode($model->id), ['view', 'id' => $model->id]);
-//        },
-        ]) ?>
+    <?php \yii\widgets\Pjax::end(); ?>
 
-        <?php \yii\widgets\Pjax::end(); ?>
-
-    </div>
 
 </div>

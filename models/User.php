@@ -18,7 +18,7 @@ use yii\web\IdentityInterface;
  * @property string $auth_key
  * @property string $name
  * @property string $email
- * @property string $phone
+ * @property string $phone // as role // mwm
  * @property integer $firm_id
  * @property integer $workplace_id
  * @property string $note
