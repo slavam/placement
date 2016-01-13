@@ -43,6 +43,7 @@ class ResumeSearch extends Resume
      */
     public function search($params)
     {
+        var_dump($params['ResumeSearch']['resumeProfessions']);
         $query = Resume::find();
         $query->joinWith(['resumeProfessions']);
         $dataProvider = new ActiveDataProvider([
@@ -74,9 +75,9 @@ class ResumeSearch extends Resume
 
         $query->andFilterWhere(['like', 'note', $this->note]);
 
-        if(isset($this->resumeProfessions) and ($this->resumeProfessions>'')){
-            $query->andWhere(['resume_profession.profession_id' => $this->resumeProfessions]);
-        }
+         if(isset($params['ResumeSearch']['resumeProfessions']) and ($params['ResumeSearch']['resumeProfessions']>'')){
+             $query->andWhere(['resume_profession.profession_id' => $this->resumeProfessions]);
+         }
 
 // var_dump($query->prepare(Yii::$app->db->queryBuilder)->createCommand()->rawSql);        
         return $dataProvider;

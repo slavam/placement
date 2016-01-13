@@ -51,6 +51,8 @@ class SiteController extends Controller
     {
         if (\Yii::$app->user->can('employer'))
           return $this->redirect('/web/resume/index');
+        elseif ((\Yii::$app->user->can('jobseeker'))) 
+          return $this->redirect('/web/vacancy/index');
 
         return $this->render('index');
     }

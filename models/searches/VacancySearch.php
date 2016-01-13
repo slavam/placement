@@ -40,6 +40,7 @@ class VacancySearch extends Vacancy
      *
      * @return ActiveDataProvider
      */
+
     public function search($params)
     {
 //        $query = Vacancy::find()->joinWith(['firm', 'profession']);

@@ -2,7 +2,8 @@
 
 use yii\helpers\ArrayHelper;
 use yii\helpers\Html;
-use yii\widgets\ListView;
+// use yii\widgets\ListView;
+use yii\grid\GridView;
 
 /* @var $this yii\web\View */
 /* @var $searchModel app\models\searches\VacancySearch */
@@ -13,30 +14,48 @@ $this->params['breadcrumbs'][] = $this->title;
 ?>
 <div class="vacancy-index">
 
-    <h1><?php //echo Html::encode($this->title) ?></h1>
-    <?php //echo $this->render('_search', ['model' => $searchModel]); ?>
-
     <p class='pull-left'>
-        <?= \yii\helpers\Html::a('<span class="glyphicon glyphicon-plus"></span> ' . Yii::t('app', 'Create new'), ['create'], ['class' => 'btn btn-success']) ?>
+        <?= \Yii::$app->user->can('/vacancy/create')? \yii\helpers\Html::a('<span class="glyphicon glyphicon-plus"></span> ' . Yii::t('app', 'Create new'), ['create'], ['class' => 'btn btn-success']) : ''       ?>
     </p>
 
     <div class="clearfix"></div>
 
-    <div>
-        <?php \yii\widgets\Pjax::begin(); ?>
+    <?php \yii\widgets\Pjax::begin(); ?>
 
-        <?= ListView::widget([
-            'dataProvider' => $dataProvider,
-            'itemOptions' => ['class' => 'col-6 col-sm-6 col-lg-6'],
-            'layout' => '<div>{summary}{pager}</div><div>{items}</div>',
-            'itemView' => '_item',
-//        'itemView' => function ($model, $key, $index, $widget) {
-//            return Html::a(Html::encode($model->id), ['view', 'id' => $model->id]);
-//        },
-        ]) ?>
+    <?= GridView::widget([
+        'dataProvider' => $dataProvider,
+        'filterModel' => $searchModel,
+        'columns' => [
+            ['class' => 'yii\grid\SerialColumn'],
 
-        <?php \yii\widgets\Pjax::end(); ?>
+            // 'person_id' => [
+            //     'attribute'=>'person_id',
+            //     'value'=>'person.fullname',
+            //     'filter'=>ArrayHelper::map(\app\models\Person::find()->active()->all(), 'id', 'lname'),
+            // ],
+            // 'professionNames' => [
+            //     'attribute'=>'resumeProfessions',
+            //     'value'=>'professionNames',
+            //     'filter'=>ArrayHelper::map(\app\models\Profession::find()->active()->all(), 'id', 'name'),
+            // ],
+            'firm_id' => [
+                'attribute'=>'firm_id',
+                'value'=>'firm.name',
+                'filter'=>ArrayHelper::map(\app\models\Firm::find()->active()->orderBy('name')->all(), 'id', 'name'),
+            ],
+            'profession_id' => [
+                'attribute'=>'profession_id',
+                'value'=>'profession.name',
+                'filter'=>ArrayHelper::map(\app\models\Profession::find()->active()->orderBy('name')->all(), 'id', 'name'),
+            ],
+            'date',
+            'salary',
 
-    </div>
+            ['class' => 'yii\grid\ActionColumn', 'contentOptions' => ['style' => 'white-space: nowrap;']],
+        ],
+        'tableOptions' =>['class' => 'table table-striped table-hover'],
+    ]); ?>
+
+    <?php \yii\widgets\Pjax::end(); ?>
 
 </div>

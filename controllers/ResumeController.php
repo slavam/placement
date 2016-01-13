@@ -43,9 +43,8 @@ class ResumeController extends Controller
         $searchModel = new ResumeSearch();
         $dataProvider = $searchModel->search(Yii::$app->request->queryParams);
         // Жадная загрузка
-        // Profession::className(), ['id' => 'profession_id'])->viaTable(ResumeProfession::tableName(), ['resume_id' => 'id']
         // $dataProvider->query->joinWith(['resumeProfessions']);
-
+        
         return $this->render('index', [
             'searchModel' => $searchModel,
             'dataProvider' => $dataProvider,
@@ -61,7 +60,7 @@ class ResumeController extends Controller
      */
     public function actionView($id, $at = null)
     {
-        if (!\Yii::$app->user->can('/resume/view', ['model' => $this->findModel($id)]))
+        if (!\Yii::$app->user->can('/resume/view'))
             throw new ForbiddenHttpException('У вас недостаточно прав для данного действия.');
 
         return $this->render('view', [
