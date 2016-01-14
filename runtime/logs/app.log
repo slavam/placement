@@ -14335,3 +14335,2027 @@ $_SERVER = [
     'REQUEST_TIME_FLOAT' => 1452695856.093
     'REQUEST_TIME' => 1452695856
 ]
+2016-01-14 10:30:52 [10.240.0.174][1][90hvtngcqla0m4kgmnv8lspht5][error][yii\base\ErrorException:4] exception 'yii\base\ErrorException' with message 'syntax error, unexpected '=>' (T_DOUBLE_ARROW)' in /home/ubuntu/workspace/views/resume/index.php:37
+Stack trace:
+#0 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/View.php(149): yii\base\View->renderFile()
+#1 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/Controller.php(371): yii\base\View->render()
+#2 /home/ubuntu/workspace/controllers/ResumeController.php(51): yii\base\Controller->render()
+#3 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/InlineAction.php(55): app\controllers\ResumeController->actionIndex()
+#4 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/InlineAction.php(55): ::call_user_func_array:{/home/ubuntu/workspace/vendor/yiisoft/yii2/base/InlineAction.php:55}()
+#5 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/Controller.php(151): yii\base\InlineAction->runWithParams()
+#6 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/Module.php(455): yii\base\Controller->runAction()
+#7 /home/ubuntu/workspace/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction()
+#8 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest()
+#9 /home/ubuntu/workspace/web/index.php(12): yii\base\Application->run()
+#10 {main}
+2016-01-14 10:30:52 [10.240.0.174][1][90hvtngcqla0m4kgmnv8lspht5][info][application] $_COOKIE = [
+    'PHPSESSID' => '90hvtngcqla0m4kgmnv8lspht5'
+    '_csrf' => 'e235b6d7c3580228fbbe127b9b8aa6d961059f3859fee31cfbf01a913a6ad80ea:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"pbaHzKviDNESer2SSnOWrsLPVrqyN12E\";}'
+    'XDEBUG_SESSION' => 'cloud9ide'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/web/vacancy/index?VacancySearch%5Bfirm_id%5D=15&VacancySearch%5Bprofession_id%5D=&VacancySearch%5Bsalary%5D='
+    '__id' => 1
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'yii2-pm-slavam1.c9users.io'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; WOW64; rv:43.0) Gecko/20100101 Firefox/43.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'https://yii2-pm-slavam1.c9users.io/web/vacancy/index?VacancySearch%5Bfirm_id%5D=15&VacancySearch%5Bprofession_id%5D=&VacancySearch%5Bsalary%5D='
+    'HTTP_COOKIE' => 'PHPSESSID=90hvtngcqla0m4kgmnv8lspht5; _csrf=e235b6d7c3580228fbbe127b9b8aa6d961059f3859fee31cfbf01a913a6ad80ea%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22pbaHzKviDNESer2SSnOWrsLPVrqyN12E%22%3B%7D; XDEBUG_SESSION=cloud9ide'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_X_FORWARDED_PROTO' => 'https'
+    'HTTP_X_FORWARDED_PORT' => '443'
+    'HTTP_X_REGION' => 'eu'
+    'HTTP_X_FORWARDED_FOR' => '46.150.97.80'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => '/home/ubuntu/.nvm/versions/node/v4.1.1/bin:/usr/local/rvm/gems/ruby-2.2.1/bin:/usr/local/rvm/gems/ruby-2.2.1@global/bin:/usr/local/rvm/rubies/ruby-2.2.1/bin:/mnt/shared/bin:/home/ubuntu/workspace/node_modules/.bin:/home/ubuntu/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/mnt/shared/sbin:/opt/gitl:/opt/go/bin:/mnt/shared/c9/app.nw/bin:/usr/local/rvm/bin'
+    'LD_LIBRARY_PATH' => '~/.c9/local/lib'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Ubuntu) Server at yii2-pm-slavam1.c9users.io Port 443</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Ubuntu)'
+    'SERVER_NAME' => 'yii2-pm-slavam1.c9users.io'
+    'SERVER_ADDR' => '172.17.65.181'
+    'SERVER_PORT' => '443'
+    'REMOTE_ADDR' => '10.240.0.174'
+    'DOCUMENT_ROOT' => '/home/ubuntu/workspace'
+    'REQUEST_SCHEME' => 'https'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/home/ubuntu/workspace'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => '/home/ubuntu/workspace/web/index.php'
+    'REMOTE_PORT' => '55442'
+    'REDIRECT_URL' => '/web/resume/index'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/web/resume/index'
+    'SCRIPT_NAME' => '/web/index.php'
+    'PHP_SELF' => '/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1452756652.668
+    'REQUEST_TIME' => 1452756652
+]
+2016-01-14 10:33:29 [10.240.0.168][5][-][error][yii\web\HttpException:403] exception 'yii\web\ForbiddenHttpException' with message 'Вам не разрешено производить данное действие.' in /home/ubuntu/workspace/vendor/mdmsoft/yii2-admin/components/AccessControl.php:96
+Stack trace:
+#0 /home/ubuntu/workspace/vendor/mdmsoft/yii2-admin/components/AccessControl.php(81): mdm\admin\components\AccessControl->denyAccess(Object(yii\web\User))
+#1 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/ActionFilter.php(71): mdm\admin\components\AccessControl->beforeAction(Object(yii\base\InlineAction))
+#2 [internal function]: yii\base\ActionFilter->beforeFilter(Object(yii\base\ActionEvent))
+#3 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/Component.php(541): call_user_func(Array, Object(yii\base\ActionEvent))
+#4 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/Module.php(607): yii\base\Component->trigger('beforeAction', Object(yii\base\ActionEvent))
+#5 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/Controller.php(139): yii\base\Module->beforeAction(Object(yii\base\InlineAction))
+#6 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/Module.php(455): yii\base\Controller->runAction('update', Array)
+#7 /home/ubuntu/workspace/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('city/update', Array)
+#8 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#9 /home/ubuntu/workspace/web/index.php(12): yii\base\Application->run()
+#10 {main}
+2016-01-14 10:33:29 [10.240.0.168][5][-][info][application] $_GET = [
+    'id' => '2'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => '42khrr98so4k6hgp94jvssp7b0'
+    '_csrf' => 'e235b6d7c3580228fbbe127b9b8aa6d961059f3859fee31cfbf01a913a6ad80ea:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"pbaHzKviDNESer2SSnOWrsLPVrqyN12E\";}'
+    'XDEBUG_SESSION' => 'cloud9ide'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 5
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'yii2-pm-slavam1.c9users.io'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; WOW64; rv:43.0) Gecko/20100101 Firefox/43.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'https://yii2-pm-slavam1.c9users.io/web/city/index'
+    'HTTP_COOKIE' => 'PHPSESSID=42khrr98so4k6hgp94jvssp7b0; _csrf=e235b6d7c3580228fbbe127b9b8aa6d961059f3859fee31cfbf01a913a6ad80ea%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22pbaHzKviDNESer2SSnOWrsLPVrqyN12E%22%3B%7D; XDEBUG_SESSION=cloud9ide'
+    'HTTP_X_FORWARDED_PROTO' => 'https'
+    'HTTP_X_FORWARDED_PORT' => '443'
+    'HTTP_X_REGION' => 'eu'
+    'HTTP_X_FORWARDED_FOR' => '46.150.97.80'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => '/home/ubuntu/.nvm/versions/node/v4.1.1/bin:/usr/local/rvm/gems/ruby-2.2.1/bin:/usr/local/rvm/gems/ruby-2.2.1@global/bin:/usr/local/rvm/rubies/ruby-2.2.1/bin:/mnt/shared/bin:/home/ubuntu/workspace/node_modules/.bin:/home/ubuntu/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/mnt/shared/sbin:/opt/gitl:/opt/go/bin:/mnt/shared/c9/app.nw/bin:/usr/local/rvm/bin'
+    'LD_LIBRARY_PATH' => '~/.c9/local/lib'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Ubuntu) Server at yii2-pm-slavam1.c9users.io Port 443</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Ubuntu)'
+    'SERVER_NAME' => 'yii2-pm-slavam1.c9users.io'
+    'SERVER_ADDR' => '172.17.65.181'
+    'SERVER_PORT' => '443'
+    'REMOTE_ADDR' => '10.240.0.168'
+    'DOCUMENT_ROOT' => '/home/ubuntu/workspace'
+    'REQUEST_SCHEME' => 'https'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/home/ubuntu/workspace'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => '/home/ubuntu/workspace/web/index.php'
+    'REMOTE_PORT' => '49696'
+    'REDIRECT_QUERY_STRING' => 'id=2'
+    'REDIRECT_URL' => '/web/city/update'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'id=2'
+    'REQUEST_URI' => '/web/city/update?id=2'
+    'SCRIPT_NAME' => '/web/index.php'
+    'PHP_SELF' => '/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1452756809.701
+    'REQUEST_TIME' => 1452756809
+]
+2016-01-14 10:33:47 [10.240.0.173][5][-][error][yii\web\HttpException:403] exception 'yii\web\ForbiddenHttpException' with message 'Вам не разрешено производить данное действие.' in /home/ubuntu/workspace/vendor/mdmsoft/yii2-admin/components/AccessControl.php:96
+Stack trace:
+#0 /home/ubuntu/workspace/vendor/mdmsoft/yii2-admin/components/AccessControl.php(81): mdm\admin\components\AccessControl->denyAccess(Object(yii\web\User))
+#1 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/ActionFilter.php(71): mdm\admin\components\AccessControl->beforeAction(Object(yii\base\InlineAction))
+#2 [internal function]: yii\base\ActionFilter->beforeFilter(Object(yii\base\ActionEvent))
+#3 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/Component.php(541): call_user_func(Array, Object(yii\base\ActionEvent))
+#4 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/Module.php(607): yii\base\Component->trigger('beforeAction', Object(yii\base\ActionEvent))
+#5 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/Controller.php(139): yii\base\Module->beforeAction(Object(yii\base\InlineAction))
+#6 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/Module.php(455): yii\base\Controller->runAction('update', Array)
+#7 /home/ubuntu/workspace/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('city/update', Array)
+#8 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#9 /home/ubuntu/workspace/web/index.php(12): yii\base\Application->run()
+#10 {main}
+2016-01-14 10:33:47 [10.240.0.173][5][-][info][application] $_GET = [
+    'id' => '2'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => '42khrr98so4k6hgp94jvssp7b0'
+    '_csrf' => 'e235b6d7c3580228fbbe127b9b8aa6d961059f3859fee31cfbf01a913a6ad80ea:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"pbaHzKviDNESer2SSnOWrsLPVrqyN12E\";}'
+    'XDEBUG_SESSION' => 'cloud9ide'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 5
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'yii2-pm-slavam1.c9users.io'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; WOW64; rv:43.0) Gecko/20100101 Firefox/43.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'https://yii2-pm-slavam1.c9users.io/web/city/view?id=2'
+    'HTTP_COOKIE' => 'PHPSESSID=42khrr98so4k6hgp94jvssp7b0; _csrf=e235b6d7c3580228fbbe127b9b8aa6d961059f3859fee31cfbf01a913a6ad80ea%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22pbaHzKviDNESer2SSnOWrsLPVrqyN12E%22%3B%7D; XDEBUG_SESSION=cloud9ide'
+    'HTTP_X_FORWARDED_PROTO' => 'https'
+    'HTTP_X_FORWARDED_PORT' => '443'
+    'HTTP_X_REGION' => 'eu'
+    'HTTP_X_FORWARDED_FOR' => '46.150.97.80'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => '/home/ubuntu/.nvm/versions/node/v4.1.1/bin:/usr/local/rvm/gems/ruby-2.2.1/bin:/usr/local/rvm/gems/ruby-2.2.1@global/bin:/usr/local/rvm/rubies/ruby-2.2.1/bin:/mnt/shared/bin:/home/ubuntu/workspace/node_modules/.bin:/home/ubuntu/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/mnt/shared/sbin:/opt/gitl:/opt/go/bin:/mnt/shared/c9/app.nw/bin:/usr/local/rvm/bin'
+    'LD_LIBRARY_PATH' => '~/.c9/local/lib'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Ubuntu) Server at yii2-pm-slavam1.c9users.io Port 443</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Ubuntu)'
+    'SERVER_NAME' => 'yii2-pm-slavam1.c9users.io'
+    'SERVER_ADDR' => '172.17.65.181'
+    'SERVER_PORT' => '443'
+    'REMOTE_ADDR' => '10.240.0.173'
+    'DOCUMENT_ROOT' => '/home/ubuntu/workspace'
+    'REQUEST_SCHEME' => 'https'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/home/ubuntu/workspace'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => '/home/ubuntu/workspace/web/index.php'
+    'REMOTE_PORT' => '56350'
+    'REDIRECT_QUERY_STRING' => 'id=2'
+    'REDIRECT_URL' => '/web/city/update'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'id=2'
+    'REQUEST_URI' => '/web/city/update?id=2'
+    'SCRIPT_NAME' => '/web/index.php'
+    'PHP_SELF' => '/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1452756827.605
+    'REQUEST_TIME' => 1452756827
+]
+2016-01-14 10:34:02 [10.240.0.177][5][-][error][yii\web\HttpException:403] exception 'yii\web\ForbiddenHttpException' with message 'Вам не разрешено производить данное действие.' in /home/ubuntu/workspace/vendor/mdmsoft/yii2-admin/components/AccessControl.php:96
+Stack trace:
+#0 /home/ubuntu/workspace/vendor/mdmsoft/yii2-admin/components/AccessControl.php(81): mdm\admin\components\AccessControl->denyAccess(Object(yii\web\User))
+#1 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/ActionFilter.php(71): mdm\admin\components\AccessControl->beforeAction(Object(yii\base\InlineAction))
+#2 [internal function]: yii\base\ActionFilter->beforeFilter(Object(yii\base\ActionEvent))
+#3 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/Component.php(541): call_user_func(Array, Object(yii\base\ActionEvent))
+#4 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/Module.php(607): yii\base\Component->trigger('beforeAction', Object(yii\base\ActionEvent))
+#5 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/Controller.php(139): yii\base\Module->beforeAction(Object(yii\base\InlineAction))
+#6 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/Module.php(455): yii\base\Controller->runAction('update', Array)
+#7 /home/ubuntu/workspace/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('address/update', Array)
+#8 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#9 /home/ubuntu/workspace/web/index.php(12): yii\base\Application->run()
+#10 {main}
+2016-01-14 10:34:02 [10.240.0.177][5][-][info][application] $_GET = [
+    'id' => '2'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => '42khrr98so4k6hgp94jvssp7b0'
+    '_csrf' => 'e235b6d7c3580228fbbe127b9b8aa6d961059f3859fee31cfbf01a913a6ad80ea:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"pbaHzKviDNESer2SSnOWrsLPVrqyN12E\";}'
+    'XDEBUG_SESSION' => 'cloud9ide'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 5
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'yii2-pm-slavam1.c9users.io'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; WOW64; rv:43.0) Gecko/20100101 Firefox/43.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'https://yii2-pm-slavam1.c9users.io/web/address/index'
+    'HTTP_COOKIE' => 'PHPSESSID=42khrr98so4k6hgp94jvssp7b0; _csrf=e235b6d7c3580228fbbe127b9b8aa6d961059f3859fee31cfbf01a913a6ad80ea%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22pbaHzKviDNESer2SSnOWrsLPVrqyN12E%22%3B%7D; XDEBUG_SESSION=cloud9ide'
+    'HTTP_X_FORWARDED_PROTO' => 'https'
+    'HTTP_X_FORWARDED_PORT' => '443'
+    'HTTP_X_REGION' => 'eu'
+    'HTTP_X_FORWARDED_FOR' => '46.150.97.80'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => '/home/ubuntu/.nvm/versions/node/v4.1.1/bin:/usr/local/rvm/gems/ruby-2.2.1/bin:/usr/local/rvm/gems/ruby-2.2.1@global/bin:/usr/local/rvm/rubies/ruby-2.2.1/bin:/mnt/shared/bin:/home/ubuntu/workspace/node_modules/.bin:/home/ubuntu/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/mnt/shared/sbin:/opt/gitl:/opt/go/bin:/mnt/shared/c9/app.nw/bin:/usr/local/rvm/bin'
+    'LD_LIBRARY_PATH' => '~/.c9/local/lib'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Ubuntu) Server at yii2-pm-slavam1.c9users.io Port 443</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Ubuntu)'
+    'SERVER_NAME' => 'yii2-pm-slavam1.c9users.io'
+    'SERVER_ADDR' => '172.17.65.181'
+    'SERVER_PORT' => '443'
+    'REMOTE_ADDR' => '10.240.0.177'
+    'DOCUMENT_ROOT' => '/home/ubuntu/workspace'
+    'REQUEST_SCHEME' => 'https'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/home/ubuntu/workspace'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => '/home/ubuntu/workspace/web/index.php'
+    'REMOTE_PORT' => '35940'
+    'REDIRECT_QUERY_STRING' => 'id=2'
+    'REDIRECT_URL' => '/web/address/update'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'id=2'
+    'REQUEST_URI' => '/web/address/update?id=2'
+    'SCRIPT_NAME' => '/web/index.php'
+    'PHP_SELF' => '/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1452756842.59
+    'REQUEST_TIME' => 1452756842
+]
+2016-01-14 10:34:49 [10.240.0.174][5][-][error][yii\web\HttpException:403] exception 'yii\web\ForbiddenHttpException' with message 'Вам не разрешено производить данное действие.' in /home/ubuntu/workspace/vendor/mdmsoft/yii2-admin/components/AccessControl.php:96
+Stack trace:
+#0 /home/ubuntu/workspace/vendor/mdmsoft/yii2-admin/components/AccessControl.php(81): mdm\admin\components\AccessControl->denyAccess(Object(yii\web\User))
+#1 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/ActionFilter.php(71): mdm\admin\components\AccessControl->beforeAction(Object(yii\base\InlineAction))
+#2 [internal function]: yii\base\ActionFilter->beforeFilter(Object(yii\base\ActionEvent))
+#3 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/Component.php(541): call_user_func(Array, Object(yii\base\ActionEvent))
+#4 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/Module.php(607): yii\base\Component->trigger('beforeAction', Object(yii\base\ActionEvent))
+#5 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/Controller.php(139): yii\base\Module->beforeAction(Object(yii\base\InlineAction))
+#6 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/Module.php(455): yii\base\Controller->runAction('view', Array)
+#7 /home/ubuntu/workspace/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('address/view', Array)
+#8 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#9 /home/ubuntu/workspace/web/index.php(12): yii\base\Application->run()
+#10 {main}
+2016-01-14 10:34:49 [10.240.0.174][5][-][info][application] $_GET = [
+    'id' => '2'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => '42khrr98so4k6hgp94jvssp7b0'
+    '_csrf' => 'e235b6d7c3580228fbbe127b9b8aa6d961059f3859fee31cfbf01a913a6ad80ea:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"pbaHzKviDNESer2SSnOWrsLPVrqyN12E\";}'
+    'XDEBUG_SESSION' => 'cloud9ide'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 5
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'yii2-pm-slavam1.c9users.io'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; WOW64; rv:43.0) Gecko/20100101 Firefox/43.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'https://yii2-pm-slavam1.c9users.io/web/address/index'
+    'HTTP_COOKIE' => 'PHPSESSID=42khrr98so4k6hgp94jvssp7b0; _csrf=e235b6d7c3580228fbbe127b9b8aa6d961059f3859fee31cfbf01a913a6ad80ea%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22pbaHzKviDNESer2SSnOWrsLPVrqyN12E%22%3B%7D; XDEBUG_SESSION=cloud9ide'
+    'HTTP_X_FORWARDED_PROTO' => 'https'
+    'HTTP_X_FORWARDED_PORT' => '443'
+    'HTTP_X_REGION' => 'eu'
+    'HTTP_X_FORWARDED_FOR' => '46.150.97.80'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => '/home/ubuntu/.nvm/versions/node/v4.1.1/bin:/usr/local/rvm/gems/ruby-2.2.1/bin:/usr/local/rvm/gems/ruby-2.2.1@global/bin:/usr/local/rvm/rubies/ruby-2.2.1/bin:/mnt/shared/bin:/home/ubuntu/workspace/node_modules/.bin:/home/ubuntu/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/mnt/shared/sbin:/opt/gitl:/opt/go/bin:/mnt/shared/c9/app.nw/bin:/usr/local/rvm/bin'
+    'LD_LIBRARY_PATH' => '~/.c9/local/lib'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Ubuntu) Server at yii2-pm-slavam1.c9users.io Port 443</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Ubuntu)'
+    'SERVER_NAME' => 'yii2-pm-slavam1.c9users.io'
+    'SERVER_ADDR' => '172.17.65.181'
+    'SERVER_PORT' => '443'
+    'REMOTE_ADDR' => '10.240.0.174'
+    'DOCUMENT_ROOT' => '/home/ubuntu/workspace'
+    'REQUEST_SCHEME' => 'https'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/home/ubuntu/workspace'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => '/home/ubuntu/workspace/web/index.php'
+    'REMOTE_PORT' => '58442'
+    'REDIRECT_QUERY_STRING' => 'id=2'
+    'REDIRECT_URL' => '/web/address/view'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'id=2'
+    'REQUEST_URI' => '/web/address/view?id=2'
+    'SCRIPT_NAME' => '/web/index.php'
+    'PHP_SELF' => '/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1452756889.016
+    'REQUEST_TIME' => 1452756889
+]
+2016-01-14 10:34:53 [10.240.0.175][5][-][error][yii\web\HttpException:403] exception 'yii\web\ForbiddenHttpException' with message 'Вам не разрешено производить данное действие.' in /home/ubuntu/workspace/vendor/mdmsoft/yii2-admin/components/AccessControl.php:96
+Stack trace:
+#0 /home/ubuntu/workspace/vendor/mdmsoft/yii2-admin/components/AccessControl.php(81): mdm\admin\components\AccessControl->denyAccess(Object(yii\web\User))
+#1 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/ActionFilter.php(71): mdm\admin\components\AccessControl->beforeAction(Object(yii\base\InlineAction))
+#2 [internal function]: yii\base\ActionFilter->beforeFilter(Object(yii\base\ActionEvent))
+#3 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/Component.php(541): call_user_func(Array, Object(yii\base\ActionEvent))
+#4 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/Module.php(607): yii\base\Component->trigger('beforeAction', Object(yii\base\ActionEvent))
+#5 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/Controller.php(139): yii\base\Module->beforeAction(Object(yii\base\InlineAction))
+#6 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/Module.php(455): yii\base\Controller->runAction('view', Array)
+#7 /home/ubuntu/workspace/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('address/view', Array)
+#8 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#9 /home/ubuntu/workspace/web/index.php(12): yii\base\Application->run()
+#10 {main}
+2016-01-14 10:34:53 [10.240.0.175][5][-][info][application] $_GET = [
+    'id' => '2'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => '42khrr98so4k6hgp94jvssp7b0'
+    '_csrf' => 'e235b6d7c3580228fbbe127b9b8aa6d961059f3859fee31cfbf01a913a6ad80ea:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"pbaHzKviDNESer2SSnOWrsLPVrqyN12E\";}'
+    'XDEBUG_SESSION' => 'cloud9ide'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 5
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'yii2-pm-slavam1.c9users.io'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; WOW64; rv:43.0) Gecko/20100101 Firefox/43.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'https://yii2-pm-slavam1.c9users.io/web/address/index'
+    'HTTP_COOKIE' => 'PHPSESSID=42khrr98so4k6hgp94jvssp7b0; _csrf=e235b6d7c3580228fbbe127b9b8aa6d961059f3859fee31cfbf01a913a6ad80ea%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22pbaHzKviDNESer2SSnOWrsLPVrqyN12E%22%3B%7D; XDEBUG_SESSION=cloud9ide'
+    'HTTP_X_FORWARDED_PROTO' => 'https'
+    'HTTP_X_FORWARDED_PORT' => '443'
+    'HTTP_X_REGION' => 'eu'
+    'HTTP_X_FORWARDED_FOR' => '46.150.97.80'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => '/home/ubuntu/.nvm/versions/node/v4.1.1/bin:/usr/local/rvm/gems/ruby-2.2.1/bin:/usr/local/rvm/gems/ruby-2.2.1@global/bin:/usr/local/rvm/rubies/ruby-2.2.1/bin:/mnt/shared/bin:/home/ubuntu/workspace/node_modules/.bin:/home/ubuntu/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/mnt/shared/sbin:/opt/gitl:/opt/go/bin:/mnt/shared/c9/app.nw/bin:/usr/local/rvm/bin'
+    'LD_LIBRARY_PATH' => '~/.c9/local/lib'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Ubuntu) Server at yii2-pm-slavam1.c9users.io Port 443</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Ubuntu)'
+    'SERVER_NAME' => 'yii2-pm-slavam1.c9users.io'
+    'SERVER_ADDR' => '172.17.65.181'
+    'SERVER_PORT' => '443'
+    'REMOTE_ADDR' => '10.240.0.175'
+    'DOCUMENT_ROOT' => '/home/ubuntu/workspace'
+    'REQUEST_SCHEME' => 'https'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/home/ubuntu/workspace'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => '/home/ubuntu/workspace/web/index.php'
+    'REMOTE_PORT' => '36162'
+    'REDIRECT_QUERY_STRING' => 'id=2'
+    'REDIRECT_URL' => '/web/address/view'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'id=2'
+    'REQUEST_URI' => '/web/address/view?id=2'
+    'SCRIPT_NAME' => '/web/index.php'
+    'PHP_SELF' => '/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1452756893.698
+    'REQUEST_TIME' => 1452756893
+]
+2016-01-14 10:35:00 [10.240.0.174][5][-][error][yii\web\HttpException:403] exception 'yii\web\ForbiddenHttpException' with message 'Вам не разрешено производить данное действие.' in /home/ubuntu/workspace/vendor/mdmsoft/yii2-admin/components/AccessControl.php:96
+Stack trace:
+#0 /home/ubuntu/workspace/vendor/mdmsoft/yii2-admin/components/AccessControl.php(81): mdm\admin\components\AccessControl->denyAccess(Object(yii\web\User))
+#1 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/ActionFilter.php(71): mdm\admin\components\AccessControl->beforeAction(Object(yii\base\InlineAction))
+#2 [internal function]: yii\base\ActionFilter->beforeFilter(Object(yii\base\ActionEvent))
+#3 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/Component.php(541): call_user_func(Array, Object(yii\base\ActionEvent))
+#4 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/Module.php(607): yii\base\Component->trigger('beforeAction', Object(yii\base\ActionEvent))
+#5 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/Controller.php(139): yii\base\Module->beforeAction(Object(yii\base\InlineAction))
+#6 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/Module.php(455): yii\base\Controller->runAction('view', Array)
+#7 /home/ubuntu/workspace/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('address/view', Array)
+#8 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#9 /home/ubuntu/workspace/web/index.php(12): yii\base\Application->run()
+#10 {main}
+2016-01-14 10:35:00 [10.240.0.174][5][-][info][application] $_GET = [
+    'id' => '4'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => '42khrr98so4k6hgp94jvssp7b0'
+    '_csrf' => 'e235b6d7c3580228fbbe127b9b8aa6d961059f3859fee31cfbf01a913a6ad80ea:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"pbaHzKviDNESer2SSnOWrsLPVrqyN12E\";}'
+    'XDEBUG_SESSION' => 'cloud9ide'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 5
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'yii2-pm-slavam1.c9users.io'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; WOW64; rv:43.0) Gecko/20100101 Firefox/43.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'https://yii2-pm-slavam1.c9users.io/web/address/index'
+    'HTTP_COOKIE' => 'PHPSESSID=42khrr98so4k6hgp94jvssp7b0; _csrf=e235b6d7c3580228fbbe127b9b8aa6d961059f3859fee31cfbf01a913a6ad80ea%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22pbaHzKviDNESer2SSnOWrsLPVrqyN12E%22%3B%7D; XDEBUG_SESSION=cloud9ide'
+    'HTTP_X_FORWARDED_PROTO' => 'https'
+    'HTTP_X_FORWARDED_PORT' => '443'
+    'HTTP_X_REGION' => 'eu'
+    'HTTP_X_FORWARDED_FOR' => '46.150.97.80'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => '/home/ubuntu/.nvm/versions/node/v4.1.1/bin:/usr/local/rvm/gems/ruby-2.2.1/bin:/usr/local/rvm/gems/ruby-2.2.1@global/bin:/usr/local/rvm/rubies/ruby-2.2.1/bin:/mnt/shared/bin:/home/ubuntu/workspace/node_modules/.bin:/home/ubuntu/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/mnt/shared/sbin:/opt/gitl:/opt/go/bin:/mnt/shared/c9/app.nw/bin:/usr/local/rvm/bin'
+    'LD_LIBRARY_PATH' => '~/.c9/local/lib'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Ubuntu) Server at yii2-pm-slavam1.c9users.io Port 443</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Ubuntu)'
+    'SERVER_NAME' => 'yii2-pm-slavam1.c9users.io'
+    'SERVER_ADDR' => '172.17.65.181'
+    'SERVER_PORT' => '443'
+    'REMOTE_ADDR' => '10.240.0.174'
+    'DOCUMENT_ROOT' => '/home/ubuntu/workspace'
+    'REQUEST_SCHEME' => 'https'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/home/ubuntu/workspace'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => '/home/ubuntu/workspace/web/index.php'
+    'REMOTE_PORT' => '58790'
+    'REDIRECT_QUERY_STRING' => 'id=4'
+    'REDIRECT_URL' => '/web/address/view'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'id=4'
+    'REQUEST_URI' => '/web/address/view?id=4'
+    'SCRIPT_NAME' => '/web/index.php'
+    'PHP_SELF' => '/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1452756900.771
+    'REQUEST_TIME' => 1452756900
+]
+2016-01-14 10:35:21 [10.240.0.168][5][-][error][yii\web\HttpException:403] exception 'yii\web\ForbiddenHttpException' with message 'Вам не разрешено производить данное действие.' in /home/ubuntu/workspace/vendor/mdmsoft/yii2-admin/components/AccessControl.php:96
+Stack trace:
+#0 /home/ubuntu/workspace/vendor/mdmsoft/yii2-admin/components/AccessControl.php(81): mdm\admin\components\AccessControl->denyAccess(Object(yii\web\User))
+#1 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/ActionFilter.php(71): mdm\admin\components\AccessControl->beforeAction(Object(yii\base\InlineAction))
+#2 [internal function]: yii\base\ActionFilter->beforeFilter(Object(yii\base\ActionEvent))
+#3 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/Component.php(541): call_user_func(Array, Object(yii\base\ActionEvent))
+#4 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/Module.php(607): yii\base\Component->trigger('beforeAction', Object(yii\base\ActionEvent))
+#5 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/Controller.php(139): yii\base\Module->beforeAction(Object(yii\base\InlineAction))
+#6 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/Module.php(455): yii\base\Controller->runAction('view', Array)
+#7 /home/ubuntu/workspace/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('admin/assignmen...', Array)
+#8 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#9 /home/ubuntu/workspace/web/index.php(12): yii\base\Application->run()
+#10 {main}
+2016-01-14 10:35:21 [10.240.0.168][5][-][info][application] $_GET = [
+    'id' => '5'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => '42khrr98so4k6hgp94jvssp7b0'
+    '_csrf' => 'e235b6d7c3580228fbbe127b9b8aa6d961059f3859fee31cfbf01a913a6ad80ea:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"pbaHzKviDNESer2SSnOWrsLPVrqyN12E\";}'
+    'XDEBUG_SESSION' => 'cloud9ide'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 5
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'yii2-pm-slavam1.c9users.io'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; WOW64; rv:43.0) Gecko/20100101 Firefox/43.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'https://yii2-pm-slavam1.c9users.io/web/user/view?id=5'
+    'HTTP_COOKIE' => 'PHPSESSID=42khrr98so4k6hgp94jvssp7b0; _csrf=e235b6d7c3580228fbbe127b9b8aa6d961059f3859fee31cfbf01a913a6ad80ea%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22pbaHzKviDNESer2SSnOWrsLPVrqyN12E%22%3B%7D; XDEBUG_SESSION=cloud9ide'
+    'HTTP_X_FORWARDED_PROTO' => 'https'
+    'HTTP_X_FORWARDED_PORT' => '443'
+    'HTTP_X_REGION' => 'eu'
+    'HTTP_X_FORWARDED_FOR' => '46.150.97.80'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => '/home/ubuntu/.nvm/versions/node/v4.1.1/bin:/usr/local/rvm/gems/ruby-2.2.1/bin:/usr/local/rvm/gems/ruby-2.2.1@global/bin:/usr/local/rvm/rubies/ruby-2.2.1/bin:/mnt/shared/bin:/home/ubuntu/workspace/node_modules/.bin:/home/ubuntu/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/mnt/shared/sbin:/opt/gitl:/opt/go/bin:/mnt/shared/c9/app.nw/bin:/usr/local/rvm/bin'
+    'LD_LIBRARY_PATH' => '~/.c9/local/lib'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Ubuntu) Server at yii2-pm-slavam1.c9users.io Port 443</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Ubuntu)'
+    'SERVER_NAME' => 'yii2-pm-slavam1.c9users.io'
+    'SERVER_ADDR' => '172.17.65.181'
+    'SERVER_PORT' => '443'
+    'REMOTE_ADDR' => '10.240.0.168'
+    'DOCUMENT_ROOT' => '/home/ubuntu/workspace'
+    'REQUEST_SCHEME' => 'https'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/home/ubuntu/workspace'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => '/home/ubuntu/workspace/web/index.php'
+    'REMOTE_PORT' => '51420'
+    'REDIRECT_QUERY_STRING' => 'id=5'
+    'REDIRECT_URL' => '/web/admin/assignment/view'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'id=5'
+    'REQUEST_URI' => '/web/admin/assignment/view?id=5'
+    'SCRIPT_NAME' => '/web/index.php'
+    'PHP_SELF' => '/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1452756921.256
+    'REQUEST_TIME' => 1452756921
+]
+2016-01-14 10:35:25 [10.240.0.173][5][-][error][yii\web\HttpException:403] exception 'yii\web\ForbiddenHttpException' with message 'Вам не разрешено производить данное действие.' in /home/ubuntu/workspace/vendor/mdmsoft/yii2-admin/components/AccessControl.php:96
+Stack trace:
+#0 /home/ubuntu/workspace/vendor/mdmsoft/yii2-admin/components/AccessControl.php(81): mdm\admin\components\AccessControl->denyAccess(Object(yii\web\User))
+#1 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/ActionFilter.php(71): mdm\admin\components\AccessControl->beforeAction(Object(yii\base\InlineAction))
+#2 [internal function]: yii\base\ActionFilter->beforeFilter(Object(yii\base\ActionEvent))
+#3 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/Component.php(541): call_user_func(Array, Object(yii\base\ActionEvent))
+#4 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/Module.php(607): yii\base\Component->trigger('beforeAction', Object(yii\base\ActionEvent))
+#5 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/Controller.php(139): yii\base\Module->beforeAction(Object(yii\base\InlineAction))
+#6 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/Module.php(455): yii\base\Controller->runAction('update', Array)
+#7 /home/ubuntu/workspace/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('user/update', Array)
+#8 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#9 /home/ubuntu/workspace/web/index.php(12): yii\base\Application->run()
+#10 {main}
+2016-01-14 10:35:25 [10.240.0.173][5][-][info][application] $_GET = [
+    'id' => '5'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => '42khrr98so4k6hgp94jvssp7b0'
+    '_csrf' => 'e235b6d7c3580228fbbe127b9b8aa6d961059f3859fee31cfbf01a913a6ad80ea:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"pbaHzKviDNESer2SSnOWrsLPVrqyN12E\";}'
+    'XDEBUG_SESSION' => 'cloud9ide'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 5
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'yii2-pm-slavam1.c9users.io'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; WOW64; rv:43.0) Gecko/20100101 Firefox/43.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'https://yii2-pm-slavam1.c9users.io/web/user/view?id=5'
+    'HTTP_COOKIE' => 'PHPSESSID=42khrr98so4k6hgp94jvssp7b0; _csrf=e235b6d7c3580228fbbe127b9b8aa6d961059f3859fee31cfbf01a913a6ad80ea%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22pbaHzKviDNESer2SSnOWrsLPVrqyN12E%22%3B%7D; XDEBUG_SESSION=cloud9ide'
+    'HTTP_X_FORWARDED_PROTO' => 'https'
+    'HTTP_X_FORWARDED_PORT' => '443'
+    'HTTP_X_REGION' => 'eu'
+    'HTTP_X_FORWARDED_FOR' => '46.150.97.80'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => '/home/ubuntu/.nvm/versions/node/v4.1.1/bin:/usr/local/rvm/gems/ruby-2.2.1/bin:/usr/local/rvm/gems/ruby-2.2.1@global/bin:/usr/local/rvm/rubies/ruby-2.2.1/bin:/mnt/shared/bin:/home/ubuntu/workspace/node_modules/.bin:/home/ubuntu/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/mnt/shared/sbin:/opt/gitl:/opt/go/bin:/mnt/shared/c9/app.nw/bin:/usr/local/rvm/bin'
+    'LD_LIBRARY_PATH' => '~/.c9/local/lib'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Ubuntu) Server at yii2-pm-slavam1.c9users.io Port 443</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Ubuntu)'
+    'SERVER_NAME' => 'yii2-pm-slavam1.c9users.io'
+    'SERVER_ADDR' => '172.17.65.181'
+    'SERVER_PORT' => '443'
+    'REMOTE_ADDR' => '10.240.0.173'
+    'DOCUMENT_ROOT' => '/home/ubuntu/workspace'
+    'REQUEST_SCHEME' => 'https'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/home/ubuntu/workspace'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => '/home/ubuntu/workspace/web/index.php'
+    'REMOTE_PORT' => '57558'
+    'REDIRECT_QUERY_STRING' => 'id=5'
+    'REDIRECT_URL' => '/web/user/update'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'id=5'
+    'REQUEST_URI' => '/web/user/update?id=5'
+    'SCRIPT_NAME' => '/web/index.php'
+    'PHP_SELF' => '/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1452756925.325
+    'REQUEST_TIME' => 1452756925
+]
+2016-01-14 10:35:30 [10.240.0.176][5][-][error][yii\web\HttpException:403] exception 'yii\web\ForbiddenHttpException' with message 'Вам не разрешено производить данное действие.' in /home/ubuntu/workspace/vendor/mdmsoft/yii2-admin/components/AccessControl.php:96
+Stack trace:
+#0 /home/ubuntu/workspace/vendor/mdmsoft/yii2-admin/components/AccessControl.php(81): mdm\admin\components\AccessControl->denyAccess(Object(yii\web\User))
+#1 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/ActionFilter.php(71): mdm\admin\components\AccessControl->beforeAction(Object(yii\base\InlineAction))
+#2 [internal function]: yii\base\ActionFilter->beforeFilter(Object(yii\base\ActionEvent))
+#3 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/Component.php(541): call_user_func(Array, Object(yii\base\ActionEvent))
+#4 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/Module.php(607): yii\base\Component->trigger('beforeAction', Object(yii\base\ActionEvent))
+#5 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/Controller.php(139): yii\base\Module->beforeAction(Object(yii\base\InlineAction))
+#6 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/Module.php(455): yii\base\Controller->runAction('create', Array)
+#7 /home/ubuntu/workspace/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('user/create', Array)
+#8 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#9 /home/ubuntu/workspace/web/index.php(12): yii\base\Application->run()
+#10 {main}
+2016-01-14 10:35:30 [10.240.0.176][5][-][info][application] $_COOKIE = [
+    'PHPSESSID' => '42khrr98so4k6hgp94jvssp7b0'
+    '_csrf' => 'e235b6d7c3580228fbbe127b9b8aa6d961059f3859fee31cfbf01a913a6ad80ea:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"pbaHzKviDNESer2SSnOWrsLPVrqyN12E\";}'
+    'XDEBUG_SESSION' => 'cloud9ide'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 5
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'yii2-pm-slavam1.c9users.io'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; WOW64; rv:43.0) Gecko/20100101 Firefox/43.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'https://yii2-pm-slavam1.c9users.io/web/user/view?id=5'
+    'HTTP_COOKIE' => 'PHPSESSID=42khrr98so4k6hgp94jvssp7b0; _csrf=e235b6d7c3580228fbbe127b9b8aa6d961059f3859fee31cfbf01a913a6ad80ea%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22pbaHzKviDNESer2SSnOWrsLPVrqyN12E%22%3B%7D; XDEBUG_SESSION=cloud9ide'
+    'HTTP_X_FORWARDED_PROTO' => 'https'
+    'HTTP_X_FORWARDED_PORT' => '443'
+    'HTTP_X_REGION' => 'eu'
+    'HTTP_X_FORWARDED_FOR' => '46.150.97.80'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => '/home/ubuntu/.nvm/versions/node/v4.1.1/bin:/usr/local/rvm/gems/ruby-2.2.1/bin:/usr/local/rvm/gems/ruby-2.2.1@global/bin:/usr/local/rvm/rubies/ruby-2.2.1/bin:/mnt/shared/bin:/home/ubuntu/workspace/node_modules/.bin:/home/ubuntu/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/mnt/shared/sbin:/opt/gitl:/opt/go/bin:/mnt/shared/c9/app.nw/bin:/usr/local/rvm/bin'
+    'LD_LIBRARY_PATH' => '~/.c9/local/lib'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Ubuntu) Server at yii2-pm-slavam1.c9users.io Port 443</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Ubuntu)'
+    'SERVER_NAME' => 'yii2-pm-slavam1.c9users.io'
+    'SERVER_ADDR' => '172.17.65.181'
+    'SERVER_PORT' => '443'
+    'REMOTE_ADDR' => '10.240.0.176'
+    'DOCUMENT_ROOT' => '/home/ubuntu/workspace'
+    'REQUEST_SCHEME' => 'https'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/home/ubuntu/workspace'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => '/home/ubuntu/workspace/web/index.php'
+    'REMOTE_PORT' => '48160'
+    'REDIRECT_URL' => '/web/user/create'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/web/user/create'
+    'SCRIPT_NAME' => '/web/index.php'
+    'PHP_SELF' => '/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1452756930.432
+    'REQUEST_TIME' => 1452756930
+]
+2016-01-14 10:35:49 [10.240.0.173][5][-][error][yii\web\HttpException:403] exception 'yii\web\ForbiddenHttpException' with message 'Вам не разрешено производить данное действие.' in /home/ubuntu/workspace/vendor/mdmsoft/yii2-admin/components/AccessControl.php:96
+Stack trace:
+#0 /home/ubuntu/workspace/vendor/mdmsoft/yii2-admin/components/AccessControl.php(81): mdm\admin\components\AccessControl->denyAccess(Object(yii\web\User))
+#1 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/ActionFilter.php(71): mdm\admin\components\AccessControl->beforeAction(Object(yii\base\InlineAction))
+#2 [internal function]: yii\base\ActionFilter->beforeFilter(Object(yii\base\ActionEvent))
+#3 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/Component.php(541): call_user_func(Array, Object(yii\base\ActionEvent))
+#4 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/Module.php(607): yii\base\Component->trigger('beforeAction', Object(yii\base\ActionEvent))
+#5 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/Controller.php(139): yii\base\Module->beforeAction(Object(yii\base\InlineAction))
+#6 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/Module.php(455): yii\base\Controller->runAction('update', Array)
+#7 /home/ubuntu/workspace/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('user/update', Array)
+#8 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#9 /home/ubuntu/workspace/web/index.php(12): yii\base\Application->run()
+#10 {main}
+2016-01-14 10:35:49 [10.240.0.173][5][-][info][application] $_GET = [
+    'id' => '5'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => '42khrr98so4k6hgp94jvssp7b0'
+    '_csrf' => 'e235b6d7c3580228fbbe127b9b8aa6d961059f3859fee31cfbf01a913a6ad80ea:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"pbaHzKviDNESer2SSnOWrsLPVrqyN12E\";}'
+    'XDEBUG_SESSION' => 'cloud9ide'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 5
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'yii2-pm-slavam1.c9users.io'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; WOW64; rv:43.0) Gecko/20100101 Firefox/43.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'https://yii2-pm-slavam1.c9users.io/web/user/index'
+    'HTTP_COOKIE' => 'PHPSESSID=42khrr98so4k6hgp94jvssp7b0; _csrf=e235b6d7c3580228fbbe127b9b8aa6d961059f3859fee31cfbf01a913a6ad80ea%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22pbaHzKviDNESer2SSnOWrsLPVrqyN12E%22%3B%7D; XDEBUG_SESSION=cloud9ide'
+    'HTTP_X_FORWARDED_PROTO' => 'https'
+    'HTTP_X_FORWARDED_PORT' => '443'
+    'HTTP_X_REGION' => 'eu'
+    'HTTP_X_FORWARDED_FOR' => '46.150.97.80'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => '/home/ubuntu/.nvm/versions/node/v4.1.1/bin:/usr/local/rvm/gems/ruby-2.2.1/bin:/usr/local/rvm/gems/ruby-2.2.1@global/bin:/usr/local/rvm/rubies/ruby-2.2.1/bin:/mnt/shared/bin:/home/ubuntu/workspace/node_modules/.bin:/home/ubuntu/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/mnt/shared/sbin:/opt/gitl:/opt/go/bin:/mnt/shared/c9/app.nw/bin:/usr/local/rvm/bin'
+    'LD_LIBRARY_PATH' => '~/.c9/local/lib'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Ubuntu) Server at yii2-pm-slavam1.c9users.io Port 443</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Ubuntu)'
+    'SERVER_NAME' => 'yii2-pm-slavam1.c9users.io'
+    'SERVER_ADDR' => '172.17.65.181'
+    'SERVER_PORT' => '443'
+    'REMOTE_ADDR' => '10.240.0.173'
+    'DOCUMENT_ROOT' => '/home/ubuntu/workspace'
+    'REQUEST_SCHEME' => 'https'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/home/ubuntu/workspace'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => '/home/ubuntu/workspace/web/index.php'
+    'REMOTE_PORT' => '57966'
+    'REDIRECT_QUERY_STRING' => 'id=5'
+    'REDIRECT_URL' => '/web/user/update'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'id=5'
+    'REQUEST_URI' => '/web/user/update?id=5'
+    'SCRIPT_NAME' => '/web/index.php'
+    'PHP_SELF' => '/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1452756949.671
+    'REQUEST_TIME' => 1452756949
+]
+2016-01-14 10:36:15 [10.240.0.173][5][-][error][yii\web\HttpException:403] exception 'yii\web\ForbiddenHttpException' with message 'Вам не разрешено производить данное действие.' in /home/ubuntu/workspace/vendor/mdmsoft/yii2-admin/components/AccessControl.php:96
+Stack trace:
+#0 /home/ubuntu/workspace/vendor/mdmsoft/yii2-admin/components/AccessControl.php(81): mdm\admin\components\AccessControl->denyAccess(Object(yii\web\User))
+#1 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/ActionFilter.php(71): mdm\admin\components\AccessControl->beforeAction(Object(yii\base\InlineAction))
+#2 [internal function]: yii\base\ActionFilter->beforeFilter(Object(yii\base\ActionEvent))
+#3 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/Component.php(541): call_user_func(Array, Object(yii\base\ActionEvent))
+#4 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/Module.php(607): yii\base\Component->trigger('beforeAction', Object(yii\base\ActionEvent))
+#5 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/Controller.php(139): yii\base\Module->beforeAction(Object(yii\base\InlineAction))
+#6 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/Module.php(455): yii\base\Controller->runAction('update', Array)
+#7 /home/ubuntu/workspace/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('rec-status/upda...', Array)
+#8 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#9 /home/ubuntu/workspace/web/index.php(12): yii\base\Application->run()
+#10 {main}
+2016-01-14 10:36:15 [10.240.0.173][5][-][info][application] $_GET = [
+    'id' => '1'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => '42khrr98so4k6hgp94jvssp7b0'
+    '_csrf' => 'e235b6d7c3580228fbbe127b9b8aa6d961059f3859fee31cfbf01a913a6ad80ea:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"pbaHzKviDNESer2SSnOWrsLPVrqyN12E\";}'
+    'XDEBUG_SESSION' => 'cloud9ide'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 5
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'yii2-pm-slavam1.c9users.io'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; WOW64; rv:43.0) Gecko/20100101 Firefox/43.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'https://yii2-pm-slavam1.c9users.io/web/rec-status/view?id=1'
+    'HTTP_COOKIE' => 'PHPSESSID=42khrr98so4k6hgp94jvssp7b0; _csrf=e235b6d7c3580228fbbe127b9b8aa6d961059f3859fee31cfbf01a913a6ad80ea%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22pbaHzKviDNESer2SSnOWrsLPVrqyN12E%22%3B%7D; XDEBUG_SESSION=cloud9ide'
+    'HTTP_X_FORWARDED_PROTO' => 'https'
+    'HTTP_X_FORWARDED_PORT' => '443'
+    'HTTP_X_REGION' => 'eu'
+    'HTTP_X_FORWARDED_FOR' => '46.150.97.80'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => '/home/ubuntu/.nvm/versions/node/v4.1.1/bin:/usr/local/rvm/gems/ruby-2.2.1/bin:/usr/local/rvm/gems/ruby-2.2.1@global/bin:/usr/local/rvm/rubies/ruby-2.2.1/bin:/mnt/shared/bin:/home/ubuntu/workspace/node_modules/.bin:/home/ubuntu/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/mnt/shared/sbin:/opt/gitl:/opt/go/bin:/mnt/shared/c9/app.nw/bin:/usr/local/rvm/bin'
+    'LD_LIBRARY_PATH' => '~/.c9/local/lib'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Ubuntu) Server at yii2-pm-slavam1.c9users.io Port 443</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Ubuntu)'
+    'SERVER_NAME' => 'yii2-pm-slavam1.c9users.io'
+    'SERVER_ADDR' => '172.17.65.181'
+    'SERVER_PORT' => '443'
+    'REMOTE_ADDR' => '10.240.0.173'
+    'DOCUMENT_ROOT' => '/home/ubuntu/workspace'
+    'REQUEST_SCHEME' => 'https'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/home/ubuntu/workspace'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => '/home/ubuntu/workspace/web/index.php'
+    'REMOTE_PORT' => '58486'
+    'REDIRECT_QUERY_STRING' => 'id=1'
+    'REDIRECT_URL' => '/web/rec-status/update'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'id=1'
+    'REQUEST_URI' => '/web/rec-status/update?id=1'
+    'SCRIPT_NAME' => '/web/index.php'
+    'PHP_SELF' => '/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1452756975.312
+    'REQUEST_TIME' => 1452756975
+]
+2016-01-14 10:36:52 [10.240.0.177][5][-][error][yii\web\HttpException:403] exception 'yii\web\ForbiddenHttpException' with message 'Вам не разрешено производить данное действие.' in /home/ubuntu/workspace/vendor/mdmsoft/yii2-admin/components/AccessControl.php:96
+Stack trace:
+#0 /home/ubuntu/workspace/vendor/mdmsoft/yii2-admin/components/AccessControl.php(81): mdm\admin\components\AccessControl->denyAccess(Object(yii\web\User))
+#1 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/ActionFilter.php(71): mdm\admin\components\AccessControl->beforeAction(Object(yii\base\InlineAction))
+#2 [internal function]: yii\base\ActionFilter->beforeFilter(Object(yii\base\ActionEvent))
+#3 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/Component.php(541): call_user_func(Array, Object(yii\base\ActionEvent))
+#4 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/Module.php(607): yii\base\Component->trigger('beforeAction', Object(yii\base\ActionEvent))
+#5 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/Controller.php(139): yii\base\Module->beforeAction(Object(yii\base\InlineAction))
+#6 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/Module.php(455): yii\base\Controller->runAction('update', Array)
+#7 /home/ubuntu/workspace/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('firm/update', Array)
+#8 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#9 /home/ubuntu/workspace/web/index.php(12): yii\base\Application->run()
+#10 {main}
+2016-01-14 10:36:52 [10.240.0.177][5][-][info][application] $_GET = [
+    'id' => '1'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => '42khrr98so4k6hgp94jvssp7b0'
+    '_csrf' => 'e235b6d7c3580228fbbe127b9b8aa6d961059f3859fee31cfbf01a913a6ad80ea:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"pbaHzKviDNESer2SSnOWrsLPVrqyN12E\";}'
+    'XDEBUG_SESSION' => 'cloud9ide'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 5
+    '__returnUrl' => 'https://yii2-pm-slavam1.c9users.io/web/doc-exam/index'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'yii2-pm-slavam1.c9users.io'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; WOW64; rv:43.0) Gecko/20100101 Firefox/43.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'https://yii2-pm-slavam1.c9users.io/web/firm/index'
+    'HTTP_COOKIE' => 'PHPSESSID=42khrr98so4k6hgp94jvssp7b0; _csrf=e235b6d7c3580228fbbe127b9b8aa6d961059f3859fee31cfbf01a913a6ad80ea%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22pbaHzKviDNESer2SSnOWrsLPVrqyN12E%22%3B%7D; XDEBUG_SESSION=cloud9ide'
+    'HTTP_X_FORWARDED_PROTO' => 'https'
+    'HTTP_X_FORWARDED_PORT' => '443'
+    'HTTP_X_REGION' => 'eu'
+    'HTTP_X_FORWARDED_FOR' => '46.150.97.80'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => '/home/ubuntu/.nvm/versions/node/v4.1.1/bin:/usr/local/rvm/gems/ruby-2.2.1/bin:/usr/local/rvm/gems/ruby-2.2.1@global/bin:/usr/local/rvm/rubies/ruby-2.2.1/bin:/mnt/shared/bin:/home/ubuntu/workspace/node_modules/.bin:/home/ubuntu/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/mnt/shared/sbin:/opt/gitl:/opt/go/bin:/mnt/shared/c9/app.nw/bin:/usr/local/rvm/bin'
+    'LD_LIBRARY_PATH' => '~/.c9/local/lib'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Ubuntu) Server at yii2-pm-slavam1.c9users.io Port 443</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Ubuntu)'
+    'SERVER_NAME' => 'yii2-pm-slavam1.c9users.io'
+    'SERVER_ADDR' => '172.17.65.181'
+    'SERVER_PORT' => '443'
+    'REMOTE_ADDR' => '10.240.0.177'
+    'DOCUMENT_ROOT' => '/home/ubuntu/workspace'
+    'REQUEST_SCHEME' => 'https'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/home/ubuntu/workspace'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => '/home/ubuntu/workspace/web/index.php'
+    'REMOTE_PORT' => '39716'
+    'REDIRECT_QUERY_STRING' => 'id=1'
+    'REDIRECT_URL' => '/web/firm/update'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'id=1'
+    'REQUEST_URI' => '/web/firm/update?id=1'
+    'SCRIPT_NAME' => '/web/index.php'
+    'PHP_SELF' => '/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1452757012.627
+    'REQUEST_TIME' => 1452757012
+]
+2016-01-14 10:40:34 [10.240.0.176][5][-][error][yii\web\HttpException:403] exception 'yii\web\ForbiddenHttpException' with message 'Вам не разрешено производить данное действие.' in /home/ubuntu/workspace/vendor/mdmsoft/yii2-admin/components/AccessControl.php:96
+Stack trace:
+#0 /home/ubuntu/workspace/vendor/mdmsoft/yii2-admin/components/AccessControl.php(81): mdm\admin\components\AccessControl->denyAccess(Object(yii\web\User))
+#1 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/ActionFilter.php(71): mdm\admin\components\AccessControl->beforeAction(Object(yii\base\InlineAction))
+#2 [internal function]: yii\base\ActionFilter->beforeFilter(Object(yii\base\ActionEvent))
+#3 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/Component.php(541): call_user_func(Array, Object(yii\base\ActionEvent))
+#4 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/Module.php(607): yii\base\Component->trigger('beforeAction', Object(yii\base\ActionEvent))
+#5 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/Controller.php(139): yii\base\Module->beforeAction(Object(yii\base\InlineAction))
+#6 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/Module.php(455): yii\base\Controller->runAction('view', Array)
+#7 /home/ubuntu/workspace/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('address/view', Array)
+#8 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#9 /home/ubuntu/workspace/web/index.php(12): yii\base\Application->run()
+#10 {main}
+2016-01-14 10:40:34 [10.240.0.176][5][-][info][application] $_GET = [
+    'id' => '1'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => 'c5petlcoe2rpnhpr6pvop3is35'
+    '_csrf' => 'e235b6d7c3580228fbbe127b9b8aa6d961059f3859fee31cfbf01a913a6ad80ea:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"pbaHzKviDNESer2SSnOWrsLPVrqyN12E\";}'
+    'XDEBUG_SESSION' => 'cloud9ide'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 5
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'yii2-pm-slavam1.c9users.io'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; WOW64; rv:43.0) Gecko/20100101 Firefox/43.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'https://yii2-pm-slavam1.c9users.io/web/address/index'
+    'HTTP_COOKIE' => 'PHPSESSID=c5petlcoe2rpnhpr6pvop3is35; _csrf=e235b6d7c3580228fbbe127b9b8aa6d961059f3859fee31cfbf01a913a6ad80ea%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22pbaHzKviDNESer2SSnOWrsLPVrqyN12E%22%3B%7D; XDEBUG_SESSION=cloud9ide'
+    'HTTP_X_FORWARDED_PROTO' => 'https'
+    'HTTP_X_FORWARDED_PORT' => '443'
+    'HTTP_X_REGION' => 'eu'
+    'HTTP_X_FORWARDED_FOR' => '46.150.97.80'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => '/home/ubuntu/.nvm/versions/node/v4.1.1/bin:/usr/local/rvm/gems/ruby-2.2.1/bin:/usr/local/rvm/gems/ruby-2.2.1@global/bin:/usr/local/rvm/rubies/ruby-2.2.1/bin:/mnt/shared/bin:/home/ubuntu/workspace/node_modules/.bin:/home/ubuntu/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/mnt/shared/sbin:/opt/gitl:/opt/go/bin:/mnt/shared/c9/app.nw/bin:/usr/local/rvm/bin'
+    'LD_LIBRARY_PATH' => '~/.c9/local/lib'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Ubuntu) Server at yii2-pm-slavam1.c9users.io Port 443</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Ubuntu)'
+    'SERVER_NAME' => 'yii2-pm-slavam1.c9users.io'
+    'SERVER_ADDR' => '172.17.65.181'
+    'SERVER_PORT' => '443'
+    'REMOTE_ADDR' => '10.240.0.176'
+    'DOCUMENT_ROOT' => '/home/ubuntu/workspace'
+    'REQUEST_SCHEME' => 'https'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/home/ubuntu/workspace'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => '/home/ubuntu/workspace/web/index.php'
+    'REMOTE_PORT' => '53278'
+    'REDIRECT_QUERY_STRING' => 'id=1'
+    'REDIRECT_URL' => '/web/address/view'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'id=1'
+    'REQUEST_URI' => '/web/address/view?id=1'
+    'SCRIPT_NAME' => '/web/index.php'
+    'PHP_SELF' => '/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1452757234.073
+    'REQUEST_TIME' => 1452757234
+]
+2016-01-14 10:41:02 [10.240.0.175][5][-][error][yii\web\HttpException:403] exception 'yii\web\ForbiddenHttpException' with message 'Вам не разрешено производить данное действие.' in /home/ubuntu/workspace/vendor/mdmsoft/yii2-admin/components/AccessControl.php:96
+Stack trace:
+#0 /home/ubuntu/workspace/vendor/mdmsoft/yii2-admin/components/AccessControl.php(81): mdm\admin\components\AccessControl->denyAccess(Object(yii\web\User))
+#1 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/ActionFilter.php(71): mdm\admin\components\AccessControl->beforeAction(Object(yii\base\InlineAction))
+#2 [internal function]: yii\base\ActionFilter->beforeFilter(Object(yii\base\ActionEvent))
+#3 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/Component.php(541): call_user_func(Array, Object(yii\base\ActionEvent))
+#4 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/Module.php(607): yii\base\Component->trigger('beforeAction', Object(yii\base\ActionEvent))
+#5 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/Controller.php(139): yii\base\Module->beforeAction(Object(yii\base\InlineAction))
+#6 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/Module.php(455): yii\base\Controller->runAction('', Array)
+#7 /home/ubuntu/workspace/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('admin/role', Array)
+#8 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#9 /home/ubuntu/workspace/web/index.php(12): yii\base\Application->run()
+#10 {main}
+2016-01-14 10:41:02 [10.240.0.175][5][-][info][application] $_COOKIE = [
+    'PHPSESSID' => 'c5petlcoe2rpnhpr6pvop3is35'
+    '_csrf' => 'e235b6d7c3580228fbbe127b9b8aa6d961059f3859fee31cfbf01a913a6ad80ea:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"pbaHzKviDNESer2SSnOWrsLPVrqyN12E\";}'
+    'XDEBUG_SESSION' => 'cloud9ide'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 5
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'yii2-pm-slavam1.c9users.io'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; WOW64; rv:43.0) Gecko/20100101 Firefox/43.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'https://yii2-pm-slavam1.c9users.io/web/admin/route'
+    'HTTP_COOKIE' => 'PHPSESSID=c5petlcoe2rpnhpr6pvop3is35; _csrf=e235b6d7c3580228fbbe127b9b8aa6d961059f3859fee31cfbf01a913a6ad80ea%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22pbaHzKviDNESer2SSnOWrsLPVrqyN12E%22%3B%7D; XDEBUG_SESSION=cloud9ide'
+    'HTTP_X_FORWARDED_PROTO' => 'https'
+    'HTTP_X_FORWARDED_PORT' => '443'
+    'HTTP_X_REGION' => 'eu'
+    'HTTP_X_FORWARDED_FOR' => '46.150.97.80'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => '/home/ubuntu/.nvm/versions/node/v4.1.1/bin:/usr/local/rvm/gems/ruby-2.2.1/bin:/usr/local/rvm/gems/ruby-2.2.1@global/bin:/usr/local/rvm/rubies/ruby-2.2.1/bin:/mnt/shared/bin:/home/ubuntu/workspace/node_modules/.bin:/home/ubuntu/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/mnt/shared/sbin:/opt/gitl:/opt/go/bin:/mnt/shared/c9/app.nw/bin:/usr/local/rvm/bin'
+    'LD_LIBRARY_PATH' => '~/.c9/local/lib'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Ubuntu) Server at yii2-pm-slavam1.c9users.io Port 443</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Ubuntu)'
+    'SERVER_NAME' => 'yii2-pm-slavam1.c9users.io'
+    'SERVER_ADDR' => '172.17.65.181'
+    'SERVER_PORT' => '443'
+    'REMOTE_ADDR' => '10.240.0.175'
+    'DOCUMENT_ROOT' => '/home/ubuntu/workspace'
+    'REQUEST_SCHEME' => 'https'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/home/ubuntu/workspace'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => '/home/ubuntu/workspace/web/index.php'
+    'REMOTE_PORT' => '39588'
+    'REDIRECT_URL' => '/web/admin/role'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/web/admin/role'
+    'SCRIPT_NAME' => '/web/index.php'
+    'PHP_SELF' => '/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1452757262.859
+    'REQUEST_TIME' => 1452757262
+]
+2016-01-14 10:45:15 [10.240.0.174][5][-][error][yii\web\HttpException:403] exception 'yii\web\ForbiddenHttpException' with message 'Вам не разрешено производить данное действие.' in /home/ubuntu/workspace/vendor/mdmsoft/yii2-admin/components/AccessControl.php:96
+Stack trace:
+#0 /home/ubuntu/workspace/vendor/mdmsoft/yii2-admin/components/AccessControl.php(81): mdm\admin\components\AccessControl->denyAccess(Object(yii\web\User))
+#1 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/ActionFilter.php(71): mdm\admin\components\AccessControl->beforeAction(Object(yii\base\InlineAction))
+#2 [internal function]: yii\base\ActionFilter->beforeFilter(Object(yii\base\ActionEvent))
+#3 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/Component.php(541): call_user_func(Array, Object(yii\base\ActionEvent))
+#4 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/Module.php(607): yii\base\Component->trigger('beforeAction', Object(yii\base\ActionEvent))
+#5 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/Controller.php(139): yii\base\Module->beforeAction(Object(yii\base\InlineAction))
+#6 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/Module.php(455): yii\base\Controller->runAction('update', Array)
+#7 /home/ubuntu/workspace/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('user/update', Array)
+#8 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#9 /home/ubuntu/workspace/web/index.php(12): yii\base\Application->run()
+#10 {main}
+2016-01-14 10:45:15 [10.240.0.174][5][-][info][application] $_GET = [
+    'id' => '1'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => '9q0co3flkf2a05mp290n5459l1'
+    '_csrf' => 'e235b6d7c3580228fbbe127b9b8aa6d961059f3859fee31cfbf01a913a6ad80ea:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"pbaHzKviDNESer2SSnOWrsLPVrqyN12E\";}'
+    'XDEBUG_SESSION' => 'cloud9ide'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 5
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'yii2-pm-slavam1.c9users.io'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; WOW64; rv:43.0) Gecko/20100101 Firefox/43.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'https://yii2-pm-slavam1.c9users.io/web/user/view?id=1'
+    'HTTP_COOKIE' => 'PHPSESSID=9q0co3flkf2a05mp290n5459l1; _csrf=e235b6d7c3580228fbbe127b9b8aa6d961059f3859fee31cfbf01a913a6ad80ea%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22pbaHzKviDNESer2SSnOWrsLPVrqyN12E%22%3B%7D; XDEBUG_SESSION=cloud9ide'
+    'HTTP_X_FORWARDED_PROTO' => 'https'
+    'HTTP_X_FORWARDED_PORT' => '443'
+    'HTTP_X_REGION' => 'eu'
+    'HTTP_X_FORWARDED_FOR' => '46.150.97.80'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => '/home/ubuntu/.nvm/versions/node/v4.1.1/bin:/usr/local/rvm/gems/ruby-2.2.1/bin:/usr/local/rvm/gems/ruby-2.2.1@global/bin:/usr/local/rvm/rubies/ruby-2.2.1/bin:/mnt/shared/bin:/home/ubuntu/workspace/node_modules/.bin:/home/ubuntu/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/mnt/shared/sbin:/opt/gitl:/opt/go/bin:/mnt/shared/c9/app.nw/bin:/usr/local/rvm/bin'
+    'LD_LIBRARY_PATH' => '~/.c9/local/lib'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Ubuntu) Server at yii2-pm-slavam1.c9users.io Port 443</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Ubuntu)'
+    'SERVER_NAME' => 'yii2-pm-slavam1.c9users.io'
+    'SERVER_ADDR' => '172.17.65.181'
+    'SERVER_PORT' => '443'
+    'REMOTE_ADDR' => '10.240.0.174'
+    'DOCUMENT_ROOT' => '/home/ubuntu/workspace'
+    'REQUEST_SCHEME' => 'https'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/home/ubuntu/workspace'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => '/home/ubuntu/workspace/web/index.php'
+    'REMOTE_PORT' => '39094'
+    'REDIRECT_QUERY_STRING' => 'id=1'
+    'REDIRECT_URL' => '/web/user/update'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'id=1'
+    'REQUEST_URI' => '/web/user/update?id=1'
+    'SCRIPT_NAME' => '/web/index.php'
+    'PHP_SELF' => '/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1452757515.933
+    'REQUEST_TIME' => 1452757515
+]
+2016-01-14 10:45:19 [10.240.0.176][5][-][error][yii\web\HttpException:403] exception 'yii\web\ForbiddenHttpException' with message 'Вам не разрешено производить данное действие.' in /home/ubuntu/workspace/vendor/mdmsoft/yii2-admin/components/AccessControl.php:96
+Stack trace:
+#0 /home/ubuntu/workspace/vendor/mdmsoft/yii2-admin/components/AccessControl.php(81): mdm\admin\components\AccessControl->denyAccess(Object(yii\web\User))
+#1 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/ActionFilter.php(71): mdm\admin\components\AccessControl->beforeAction(Object(yii\base\InlineAction))
+#2 [internal function]: yii\base\ActionFilter->beforeFilter(Object(yii\base\ActionEvent))
+#3 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/Component.php(541): call_user_func(Array, Object(yii\base\ActionEvent))
+#4 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/Module.php(607): yii\base\Component->trigger('beforeAction', Object(yii\base\ActionEvent))
+#5 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/Controller.php(139): yii\base\Module->beforeAction(Object(yii\base\InlineAction))
+#6 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/Module.php(455): yii\base\Controller->runAction('create', Array)
+#7 /home/ubuntu/workspace/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('user/create', Array)
+#8 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#9 /home/ubuntu/workspace/web/index.php(12): yii\base\Application->run()
+#10 {main}
+2016-01-14 10:45:19 [10.240.0.176][5][-][info][application] $_COOKIE = [
+    'PHPSESSID' => '9q0co3flkf2a05mp290n5459l1'
+    '_csrf' => 'e235b6d7c3580228fbbe127b9b8aa6d961059f3859fee31cfbf01a913a6ad80ea:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"pbaHzKviDNESer2SSnOWrsLPVrqyN12E\";}'
+    'XDEBUG_SESSION' => 'cloud9ide'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 5
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'yii2-pm-slavam1.c9users.io'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; WOW64; rv:43.0) Gecko/20100101 Firefox/43.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'https://yii2-pm-slavam1.c9users.io/web/user/view?id=1'
+    'HTTP_COOKIE' => 'PHPSESSID=9q0co3flkf2a05mp290n5459l1; _csrf=e235b6d7c3580228fbbe127b9b8aa6d961059f3859fee31cfbf01a913a6ad80ea%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22pbaHzKviDNESer2SSnOWrsLPVrqyN12E%22%3B%7D; XDEBUG_SESSION=cloud9ide'
+    'HTTP_X_FORWARDED_PROTO' => 'https'
+    'HTTP_X_FORWARDED_PORT' => '443'
+    'HTTP_X_REGION' => 'eu'
+    'HTTP_X_FORWARDED_FOR' => '46.150.97.80'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => '/home/ubuntu/.nvm/versions/node/v4.1.1/bin:/usr/local/rvm/gems/ruby-2.2.1/bin:/usr/local/rvm/gems/ruby-2.2.1@global/bin:/usr/local/rvm/rubies/ruby-2.2.1/bin:/mnt/shared/bin:/home/ubuntu/workspace/node_modules/.bin:/home/ubuntu/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/mnt/shared/sbin:/opt/gitl:/opt/go/bin:/mnt/shared/c9/app.nw/bin:/usr/local/rvm/bin'
+    'LD_LIBRARY_PATH' => '~/.c9/local/lib'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Ubuntu) Server at yii2-pm-slavam1.c9users.io Port 443</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Ubuntu)'
+    'SERVER_NAME' => 'yii2-pm-slavam1.c9users.io'
+    'SERVER_ADDR' => '172.17.65.181'
+    'SERVER_PORT' => '443'
+    'REMOTE_ADDR' => '10.240.0.176'
+    'DOCUMENT_ROOT' => '/home/ubuntu/workspace'
+    'REQUEST_SCHEME' => 'https'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/home/ubuntu/workspace'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => '/home/ubuntu/workspace/web/index.php'
+    'REMOTE_PORT' => '56510'
+    'REDIRECT_URL' => '/web/user/create'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/web/user/create'
+    'SCRIPT_NAME' => '/web/index.php'
+    'PHP_SELF' => '/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1452757519.835
+    'REQUEST_TIME' => 1452757519
+]
+2016-01-14 10:45:25 [10.240.0.168][5][-][error][yii\web\HttpException:403] exception 'yii\web\ForbiddenHttpException' with message 'Вам не разрешено производить данное действие.' in /home/ubuntu/workspace/vendor/mdmsoft/yii2-admin/components/AccessControl.php:96
+Stack trace:
+#0 /home/ubuntu/workspace/vendor/mdmsoft/yii2-admin/components/AccessControl.php(81): mdm\admin\components\AccessControl->denyAccess(Object(yii\web\User))
+#1 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/ActionFilter.php(71): mdm\admin\components\AccessControl->beforeAction(Object(yii\base\InlineAction))
+#2 [internal function]: yii\base\ActionFilter->beforeFilter(Object(yii\base\ActionEvent))
+#3 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/Component.php(541): call_user_func(Array, Object(yii\base\ActionEvent))
+#4 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/Module.php(607): yii\base\Component->trigger('beforeAction', Object(yii\base\ActionEvent))
+#5 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/Controller.php(139): yii\base\Module->beforeAction(Object(yii\base\InlineAction))
+#6 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/Module.php(455): yii\base\Controller->runAction('view', Array)
+#7 /home/ubuntu/workspace/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('admin/assignmen...', Array)
+#8 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#9 /home/ubuntu/workspace/web/index.php(12): yii\base\Application->run()
+#10 {main}
+2016-01-14 10:45:25 [10.240.0.168][5][-][info][application] $_GET = [
+    'id' => '1'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => '9q0co3flkf2a05mp290n5459l1'
+    '_csrf' => 'e235b6d7c3580228fbbe127b9b8aa6d961059f3859fee31cfbf01a913a6ad80ea:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"pbaHzKviDNESer2SSnOWrsLPVrqyN12E\";}'
+    'XDEBUG_SESSION' => 'cloud9ide'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 5
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'yii2-pm-slavam1.c9users.io'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; WOW64; rv:43.0) Gecko/20100101 Firefox/43.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'https://yii2-pm-slavam1.c9users.io/web/user/view?id=1'
+    'HTTP_COOKIE' => 'PHPSESSID=9q0co3flkf2a05mp290n5459l1; _csrf=e235b6d7c3580228fbbe127b9b8aa6d961059f3859fee31cfbf01a913a6ad80ea%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22pbaHzKviDNESer2SSnOWrsLPVrqyN12E%22%3B%7D; XDEBUG_SESSION=cloud9ide'
+    'HTTP_X_FORWARDED_PROTO' => 'https'
+    'HTTP_X_FORWARDED_PORT' => '443'
+    'HTTP_X_REGION' => 'eu'
+    'HTTP_X_FORWARDED_FOR' => '46.150.97.80'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => '/home/ubuntu/.nvm/versions/node/v4.1.1/bin:/usr/local/rvm/gems/ruby-2.2.1/bin:/usr/local/rvm/gems/ruby-2.2.1@global/bin:/usr/local/rvm/rubies/ruby-2.2.1/bin:/mnt/shared/bin:/home/ubuntu/workspace/node_modules/.bin:/home/ubuntu/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/mnt/shared/sbin:/opt/gitl:/opt/go/bin:/mnt/shared/c9/app.nw/bin:/usr/local/rvm/bin'
+    'LD_LIBRARY_PATH' => '~/.c9/local/lib'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Ubuntu) Server at yii2-pm-slavam1.c9users.io Port 443</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Ubuntu)'
+    'SERVER_NAME' => 'yii2-pm-slavam1.c9users.io'
+    'SERVER_ADDR' => '172.17.65.181'
+    'SERVER_PORT' => '443'
+    'REMOTE_ADDR' => '10.240.0.168'
+    'DOCUMENT_ROOT' => '/home/ubuntu/workspace'
+    'REQUEST_SCHEME' => 'https'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/home/ubuntu/workspace'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => '/home/ubuntu/workspace/web/index.php'
+    'REMOTE_PORT' => '59736'
+    'REDIRECT_QUERY_STRING' => 'id=1'
+    'REDIRECT_URL' => '/web/admin/assignment/view'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'id=1'
+    'REQUEST_URI' => '/web/admin/assignment/view?id=1'
+    'SCRIPT_NAME' => '/web/index.php'
+    'PHP_SELF' => '/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1452757525.54
+    'REQUEST_TIME' => 1452757525
+]
+2016-01-14 10:46:04 [10.240.0.174][5][-][error][yii\web\HttpException:403] exception 'yii\web\ForbiddenHttpException' with message 'Вам не разрешено производить данное действие.' in /home/ubuntu/workspace/vendor/mdmsoft/yii2-admin/components/AccessControl.php:96
+Stack trace:
+#0 /home/ubuntu/workspace/vendor/mdmsoft/yii2-admin/components/AccessControl.php(81): mdm\admin\components\AccessControl->denyAccess(Object(yii\web\User))
+#1 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/ActionFilter.php(71): mdm\admin\components\AccessControl->beforeAction(Object(yii\base\InlineAction))
+#2 [internal function]: yii\base\ActionFilter->beforeFilter(Object(yii\base\ActionEvent))
+#3 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/Component.php(541): call_user_func(Array, Object(yii\base\ActionEvent))
+#4 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/Module.php(607): yii\base\Component->trigger('beforeAction', Object(yii\base\ActionEvent))
+#5 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/Controller.php(139): yii\base\Module->beforeAction(Object(yii\base\InlineAction))
+#6 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/Module.php(455): yii\base\Controller->runAction('delete', Array)
+#7 /home/ubuntu/workspace/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('address/delete', Array)
+#8 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#9 /home/ubuntu/workspace/web/index.php(12): yii\base\Application->run()
+#10 {main}
+2016-01-14 10:46:04 [10.240.0.174][5][-][info][application] $_GET = [
+    'id' => '4'
+]
+
+$_POST = [
+    '_csrf' => 'MVp1b1g3U0tBOBQnInwlInUUMDw9RWEYYjQ6OCpEHxtnKAQWFgZhDg=='
+]
+
+$_COOKIE = [
+    'PHPSESSID' => '9q0co3flkf2a05mp290n5459l1'
+    '_csrf' => 'e235b6d7c3580228fbbe127b9b8aa6d961059f3859fee31cfbf01a913a6ad80ea:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"pbaHzKviDNESer2SSnOWrsLPVrqyN12E\";}'
+    'XDEBUG_SESSION' => 'cloud9ide'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 5
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'yii2-pm-slavam1.c9users.io'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; WOW64; rv:43.0) Gecko/20100101 Firefox/43.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'https://yii2-pm-slavam1.c9users.io/web/address/index'
+    'HTTP_COOKIE' => 'PHPSESSID=9q0co3flkf2a05mp290n5459l1; _csrf=e235b6d7c3580228fbbe127b9b8aa6d961059f3859fee31cfbf01a913a6ad80ea%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22pbaHzKviDNESer2SSnOWrsLPVrqyN12E%22%3B%7D; XDEBUG_SESSION=cloud9ide'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'CONTENT_LENGTH' => '66'
+    'HTTP_X_FORWARDED_PROTO' => 'https'
+    'HTTP_X_FORWARDED_PORT' => '443'
+    'HTTP_X_REGION' => 'eu'
+    'HTTP_X_FORWARDED_FOR' => '46.150.97.80'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => '/home/ubuntu/.nvm/versions/node/v4.1.1/bin:/usr/local/rvm/gems/ruby-2.2.1/bin:/usr/local/rvm/gems/ruby-2.2.1@global/bin:/usr/local/rvm/rubies/ruby-2.2.1/bin:/mnt/shared/bin:/home/ubuntu/workspace/node_modules/.bin:/home/ubuntu/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/mnt/shared/sbin:/opt/gitl:/opt/go/bin:/mnt/shared/c9/app.nw/bin:/usr/local/rvm/bin'
+    'LD_LIBRARY_PATH' => '~/.c9/local/lib'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Ubuntu) Server at yii2-pm-slavam1.c9users.io Port 443</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Ubuntu)'
+    'SERVER_NAME' => 'yii2-pm-slavam1.c9users.io'
+    'SERVER_ADDR' => '172.17.65.181'
+    'SERVER_PORT' => '443'
+    'REMOTE_ADDR' => '10.240.0.174'
+    'DOCUMENT_ROOT' => '/home/ubuntu/workspace'
+    'REQUEST_SCHEME' => 'https'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/home/ubuntu/workspace'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => '/home/ubuntu/workspace/web/index.php'
+    'REMOTE_PORT' => '39676'
+    'REDIRECT_QUERY_STRING' => 'id=4'
+    'REDIRECT_URL' => '/web/address/delete'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => 'id=4'
+    'REQUEST_URI' => '/web/address/delete?id=4'
+    'SCRIPT_NAME' => '/web/index.php'
+    'PHP_SELF' => '/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1452757564.662
+    'REQUEST_TIME' => 1452757564
+]
+2016-01-14 10:46:11 [10.240.0.177][5][-][error][yii\web\HttpException:403] exception 'yii\web\ForbiddenHttpException' with message 'Вам не разрешено производить данное действие.' in /home/ubuntu/workspace/vendor/mdmsoft/yii2-admin/components/AccessControl.php:96
+Stack trace:
+#0 /home/ubuntu/workspace/vendor/mdmsoft/yii2-admin/components/AccessControl.php(81): mdm\admin\components\AccessControl->denyAccess(Object(yii\web\User))
+#1 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/ActionFilter.php(71): mdm\admin\components\AccessControl->beforeAction(Object(yii\base\InlineAction))
+#2 [internal function]: yii\base\ActionFilter->beforeFilter(Object(yii\base\ActionEvent))
+#3 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/Component.php(541): call_user_func(Array, Object(yii\base\ActionEvent))
+#4 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/Module.php(607): yii\base\Component->trigger('beforeAction', Object(yii\base\ActionEvent))
+#5 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/Controller.php(139): yii\base\Module->beforeAction(Object(yii\base\InlineAction))
+#6 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/Module.php(455): yii\base\Controller->runAction('delete', Array)
+#7 /home/ubuntu/workspace/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('address/delete', Array)
+#8 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#9 /home/ubuntu/workspace/web/index.php(12): yii\base\Application->run()
+#10 {main}
+2016-01-14 10:46:11 [10.240.0.177][5][-][info][application] $_GET = [
+    'id' => '4'
+]
+
+$_POST = [
+    '_csrf' => 'S09XRjBPWE47LTYOSgQuJw8BEhVVPWodGCEYEUI8FB4dPSY/fn5qCw=='
+]
+
+$_COOKIE = [
+    'PHPSESSID' => '9q0co3flkf2a05mp290n5459l1'
+    '_csrf' => 'e235b6d7c3580228fbbe127b9b8aa6d961059f3859fee31cfbf01a913a6ad80ea:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"pbaHzKviDNESer2SSnOWrsLPVrqyN12E\";}'
+    'XDEBUG_SESSION' => 'cloud9ide'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 5
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'yii2-pm-slavam1.c9users.io'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; WOW64; rv:43.0) Gecko/20100101 Firefox/43.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'https://yii2-pm-slavam1.c9users.io/web/address/index'
+    'HTTP_COOKIE' => 'PHPSESSID=9q0co3flkf2a05mp290n5459l1; _csrf=e235b6d7c3580228fbbe127b9b8aa6d961059f3859fee31cfbf01a913a6ad80ea%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22pbaHzKviDNESer2SSnOWrsLPVrqyN12E%22%3B%7D; XDEBUG_SESSION=cloud9ide'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'CONTENT_LENGTH' => '68'
+    'HTTP_X_FORWARDED_PROTO' => 'https'
+    'HTTP_X_FORWARDED_PORT' => '443'
+    'HTTP_X_REGION' => 'eu'
+    'HTTP_X_FORWARDED_FOR' => '46.150.97.80'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => '/home/ubuntu/.nvm/versions/node/v4.1.1/bin:/usr/local/rvm/gems/ruby-2.2.1/bin:/usr/local/rvm/gems/ruby-2.2.1@global/bin:/usr/local/rvm/rubies/ruby-2.2.1/bin:/mnt/shared/bin:/home/ubuntu/workspace/node_modules/.bin:/home/ubuntu/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/mnt/shared/sbin:/opt/gitl:/opt/go/bin:/mnt/shared/c9/app.nw/bin:/usr/local/rvm/bin'
+    'LD_LIBRARY_PATH' => '~/.c9/local/lib'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Ubuntu) Server at yii2-pm-slavam1.c9users.io Port 443</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Ubuntu)'
+    'SERVER_NAME' => 'yii2-pm-slavam1.c9users.io'
+    'SERVER_ADDR' => '172.17.65.181'
+    'SERVER_PORT' => '443'
+    'REMOTE_ADDR' => '10.240.0.177'
+    'DOCUMENT_ROOT' => '/home/ubuntu/workspace'
+    'REQUEST_SCHEME' => 'https'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/home/ubuntu/workspace'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => '/home/ubuntu/workspace/web/index.php'
+    'REMOTE_PORT' => '48786'
+    'REDIRECT_QUERY_STRING' => 'id=4'
+    'REDIRECT_URL' => '/web/address/delete'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => 'id=4'
+    'REQUEST_URI' => '/web/address/delete?id=4'
+    'SCRIPT_NAME' => '/web/index.php'
+    'PHP_SELF' => '/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1452757571.723
+    'REQUEST_TIME' => 1452757571
+]
+2016-01-14 10:47:18 [10.240.0.176][5][-][error][yii\web\HttpException:403] exception 'yii\web\ForbiddenHttpException' with message 'Вам не разрешено производить данное действие.' in /home/ubuntu/workspace/vendor/mdmsoft/yii2-admin/components/AccessControl.php:96
+Stack trace:
+#0 /home/ubuntu/workspace/vendor/mdmsoft/yii2-admin/components/AccessControl.php(81): mdm\admin\components\AccessControl->denyAccess(Object(yii\web\User))
+#1 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/ActionFilter.php(71): mdm\admin\components\AccessControl->beforeAction(Object(yii\base\InlineAction))
+#2 [internal function]: yii\base\ActionFilter->beforeFilter(Object(yii\base\ActionEvent))
+#3 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/Component.php(541): call_user_func(Array, Object(yii\base\ActionEvent))
+#4 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/Module.php(607): yii\base\Component->trigger('beforeAction', Object(yii\base\ActionEvent))
+#5 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/Controller.php(139): yii\base\Module->beforeAction(Object(yii\base\InlineAction))
+#6 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/Module.php(455): yii\base\Controller->runAction('update', Array)
+#7 /home/ubuntu/workspace/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('doc-patent/upda...', Array)
+#8 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#9 /home/ubuntu/workspace/web/index.php(12): yii\base\Application->run()
+#10 {main}
+2016-01-14 10:47:18 [10.240.0.176][5][-][info][application] $_GET = [
+    'id' => '1'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => '9q0co3flkf2a05mp290n5459l1'
+    '_csrf' => 'e235b6d7c3580228fbbe127b9b8aa6d961059f3859fee31cfbf01a913a6ad80ea:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"pbaHzKviDNESer2SSnOWrsLPVrqyN12E\";}'
+    'XDEBUG_SESSION' => 'cloud9ide'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 5
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'yii2-pm-slavam1.c9users.io'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; WOW64; rv:43.0) Gecko/20100101 Firefox/43.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'https://yii2-pm-slavam1.c9users.io/web/doc-patent/index'
+    'HTTP_COOKIE' => 'PHPSESSID=9q0co3flkf2a05mp290n5459l1; _csrf=e235b6d7c3580228fbbe127b9b8aa6d961059f3859fee31cfbf01a913a6ad80ea%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22pbaHzKviDNESer2SSnOWrsLPVrqyN12E%22%3B%7D; XDEBUG_SESSION=cloud9ide'
+    'HTTP_X_FORWARDED_PROTO' => 'https'
+    'HTTP_X_FORWARDED_PORT' => '443'
+    'HTTP_X_REGION' => 'eu'
+    'HTTP_X_FORWARDED_FOR' => '46.150.97.80'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => '/home/ubuntu/.nvm/versions/node/v4.1.1/bin:/usr/local/rvm/gems/ruby-2.2.1/bin:/usr/local/rvm/gems/ruby-2.2.1@global/bin:/usr/local/rvm/rubies/ruby-2.2.1/bin:/mnt/shared/bin:/home/ubuntu/workspace/node_modules/.bin:/home/ubuntu/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/mnt/shared/sbin:/opt/gitl:/opt/go/bin:/mnt/shared/c9/app.nw/bin:/usr/local/rvm/bin'
+    'LD_LIBRARY_PATH' => '~/.c9/local/lib'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Ubuntu) Server at yii2-pm-slavam1.c9users.io Port 443</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Ubuntu)'
+    'SERVER_NAME' => 'yii2-pm-slavam1.c9users.io'
+    'SERVER_ADDR' => '172.17.65.181'
+    'SERVER_PORT' => '443'
+    'REMOTE_ADDR' => '10.240.0.176'
+    'DOCUMENT_ROOT' => '/home/ubuntu/workspace'
+    'REQUEST_SCHEME' => 'https'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/home/ubuntu/workspace'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => '/home/ubuntu/workspace/web/index.php'
+    'REMOTE_PORT' => '58886'
+    'REDIRECT_QUERY_STRING' => 'id=1'
+    'REDIRECT_URL' => '/web/doc-patent/update'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'id=1'
+    'REQUEST_URI' => '/web/doc-patent/update?id=1'
+    'SCRIPT_NAME' => '/web/index.php'
+    'PHP_SELF' => '/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1452757638.793
+    'REQUEST_TIME' => 1452757638
+]
+2016-01-14 10:53:29 [10.240.0.177][5][-][error][yii\web\HttpException:403] exception 'yii\web\ForbiddenHttpException' with message 'Вам не разрешено производить данное действие.' in /home/ubuntu/workspace/vendor/mdmsoft/yii2-admin/components/AccessControl.php:96
+Stack trace:
+#0 /home/ubuntu/workspace/vendor/mdmsoft/yii2-admin/components/AccessControl.php(81): mdm\admin\components\AccessControl->denyAccess(Object(yii\web\User))
+#1 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/ActionFilter.php(71): mdm\admin\components\AccessControl->beforeAction(Object(yii\base\InlineAction))
+#2 [internal function]: yii\base\ActionFilter->beforeFilter(Object(yii\base\ActionEvent))
+#3 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/Component.php(541): call_user_func(Array, Object(yii\base\ActionEvent))
+#4 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/Module.php(607): yii\base\Component->trigger('beforeAction', Object(yii\base\ActionEvent))
+#5 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/Controller.php(139): yii\base\Module->beforeAction(Object(yii\base\InlineAction))
+#6 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/Module.php(455): yii\base\Controller->runAction('view', Array)
+#7 /home/ubuntu/workspace/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('admin/role/view', Array)
+#8 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#9 /home/ubuntu/workspace/web/index.php(12): yii\base\Application->run()
+#10 {main}
+2016-01-14 10:53:29 [10.240.0.177][5][-][info][application] $_GET = [
+    'id' => 'fillingbase'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => '9q0co3flkf2a05mp290n5459l1'
+    '_csrf' => 'e235b6d7c3580228fbbe127b9b8aa6d961059f3859fee31cfbf01a913a6ad80ea:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"pbaHzKviDNESer2SSnOWrsLPVrqyN12E\";}'
+    'XDEBUG_SESSION' => 'cloud9ide'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 5
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'yii2-pm-slavam1.c9users.io'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; WOW64; rv:43.0) Gecko/20100101 Firefox/43.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'https://yii2-pm-slavam1.c9users.io/web/admin/role'
+    'HTTP_COOKIE' => 'PHPSESSID=9q0co3flkf2a05mp290n5459l1; _csrf=e235b6d7c3580228fbbe127b9b8aa6d961059f3859fee31cfbf01a913a6ad80ea%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22pbaHzKviDNESer2SSnOWrsLPVrqyN12E%22%3B%7D; XDEBUG_SESSION=cloud9ide'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_X_FORWARDED_PROTO' => 'https'
+    'HTTP_X_FORWARDED_PORT' => '443'
+    'HTTP_X_REGION' => 'eu'
+    'HTTP_X_FORWARDED_FOR' => '46.150.97.80'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => '/home/ubuntu/.nvm/versions/node/v4.1.1/bin:/usr/local/rvm/gems/ruby-2.2.1/bin:/usr/local/rvm/gems/ruby-2.2.1@global/bin:/usr/local/rvm/rubies/ruby-2.2.1/bin:/mnt/shared/bin:/home/ubuntu/workspace/node_modules/.bin:/home/ubuntu/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/mnt/shared/sbin:/opt/gitl:/opt/go/bin:/mnt/shared/c9/app.nw/bin:/usr/local/rvm/bin'
+    'LD_LIBRARY_PATH' => '~/.c9/local/lib'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Ubuntu) Server at yii2-pm-slavam1.c9users.io Port 443</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Ubuntu)'
+    'SERVER_NAME' => 'yii2-pm-slavam1.c9users.io'
+    'SERVER_ADDR' => '172.17.65.181'
+    'SERVER_PORT' => '443'
+    'REMOTE_ADDR' => '10.240.0.177'
+    'DOCUMENT_ROOT' => '/home/ubuntu/workspace'
+    'REQUEST_SCHEME' => 'https'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/home/ubuntu/workspace'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => '/home/ubuntu/workspace/web/index.php'
+    'REMOTE_PORT' => '54890'
+    'REDIRECT_QUERY_STRING' => 'id=fillingbase'
+    'REDIRECT_URL' => '/web/admin/role/view'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'id=fillingbase'
+    'REQUEST_URI' => '/web/admin/role/view?id=fillingbase'
+    'SCRIPT_NAME' => '/web/index.php'
+    'PHP_SELF' => '/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1452758009.083
+    'REQUEST_TIME' => 1452758009
+]
+2016-01-14 10:58:11 [10.240.0.176][5][-][error][yii\web\HttpException:403] exception 'yii\web\ForbiddenHttpException' with message 'Вам не разрешено производить данное действие.' in /home/ubuntu/workspace/vendor/mdmsoft/yii2-admin/components/AccessControl.php:96
+Stack trace:
+#0 /home/ubuntu/workspace/vendor/mdmsoft/yii2-admin/components/AccessControl.php(81): mdm\admin\components\AccessControl->denyAccess(Object(yii\web\User))
+#1 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/ActionFilter.php(71): mdm\admin\components\AccessControl->beforeAction(Object(yii\base\InlineAction))
+#2 [internal function]: yii\base\ActionFilter->beforeFilter(Object(yii\base\ActionEvent))
+#3 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/Component.php(541): call_user_func(Array, Object(yii\base\ActionEvent))
+#4 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/Module.php(607): yii\base\Component->trigger('beforeAction', Object(yii\base\ActionEvent))
+#5 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/Controller.php(139): yii\base\Module->beforeAction(Object(yii\base\InlineAction))
+#6 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/Module.php(455): yii\base\Controller->runAction('update', Array)
+#7 /home/ubuntu/workspace/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('region/update', Array)
+#8 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#9 /home/ubuntu/workspace/web/index.php(12): yii\base\Application->run()
+#10 {main}
+2016-01-14 10:58:11 [10.240.0.176][5][-][info][application] $_GET = [
+    'id' => '1'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => '9q0co3flkf2a05mp290n5459l1'
+    '_csrf' => 'e235b6d7c3580228fbbe127b9b8aa6d961059f3859fee31cfbf01a913a6ad80ea:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"pbaHzKviDNESer2SSnOWrsLPVrqyN12E\";}'
+    'XDEBUG_SESSION' => 'cloud9ide'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 5
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'yii2-pm-slavam1.c9users.io'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; WOW64; rv:43.0) Gecko/20100101 Firefox/43.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'https://yii2-pm-slavam1.c9users.io/web/region/index'
+    'HTTP_COOKIE' => 'PHPSESSID=9q0co3flkf2a05mp290n5459l1; _csrf=e235b6d7c3580228fbbe127b9b8aa6d961059f3859fee31cfbf01a913a6ad80ea%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22pbaHzKviDNESer2SSnOWrsLPVrqyN12E%22%3B%7D; XDEBUG_SESSION=cloud9ide'
+    'HTTP_X_FORWARDED_PROTO' => 'https'
+    'HTTP_X_FORWARDED_PORT' => '443'
+    'HTTP_X_REGION' => 'eu'
+    'HTTP_X_FORWARDED_FOR' => '46.150.97.80'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => '/home/ubuntu/.nvm/versions/node/v4.1.1/bin:/usr/local/rvm/gems/ruby-2.2.1/bin:/usr/local/rvm/gems/ruby-2.2.1@global/bin:/usr/local/rvm/rubies/ruby-2.2.1/bin:/mnt/shared/bin:/home/ubuntu/workspace/node_modules/.bin:/home/ubuntu/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/mnt/shared/sbin:/opt/gitl:/opt/go/bin:/mnt/shared/c9/app.nw/bin:/usr/local/rvm/bin'
+    'LD_LIBRARY_PATH' => '~/.c9/local/lib'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Ubuntu) Server at yii2-pm-slavam1.c9users.io Port 443</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Ubuntu)'
+    'SERVER_NAME' => 'yii2-pm-slavam1.c9users.io'
+    'SERVER_ADDR' => '172.17.65.181'
+    'SERVER_PORT' => '443'
+    'REMOTE_ADDR' => '10.240.0.176'
+    'DOCUMENT_ROOT' => '/home/ubuntu/workspace'
+    'REQUEST_SCHEME' => 'https'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/home/ubuntu/workspace'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => '/home/ubuntu/workspace/web/index.php'
+    'REMOTE_PORT' => '37876'
+    'REDIRECT_QUERY_STRING' => 'id=1'
+    'REDIRECT_URL' => '/web/region/update'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'id=1'
+    'REQUEST_URI' => '/web/region/update?id=1'
+    'SCRIPT_NAME' => '/web/index.php'
+    'PHP_SELF' => '/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1452758291.379
+    'REQUEST_TIME' => 1452758291
+]
+2016-01-14 10:58:37 [10.240.0.173][5][-][error][yii\web\HttpException:403] exception 'yii\web\ForbiddenHttpException' with message 'Вам не разрешено производить данное действие.' in /home/ubuntu/workspace/vendor/mdmsoft/yii2-admin/components/AccessControl.php:96
+Stack trace:
+#0 /home/ubuntu/workspace/vendor/mdmsoft/yii2-admin/components/AccessControl.php(81): mdm\admin\components\AccessControl->denyAccess(Object(yii\web\User))
+#1 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/ActionFilter.php(71): mdm\admin\components\AccessControl->beforeAction(Object(yii\base\InlineAction))
+#2 [internal function]: yii\base\ActionFilter->beforeFilter(Object(yii\base\ActionEvent))
+#3 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/Component.php(541): call_user_func(Array, Object(yii\base\ActionEvent))
+#4 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/Module.php(607): yii\base\Component->trigger('beforeAction', Object(yii\base\ActionEvent))
+#5 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/Controller.php(139): yii\base\Module->beforeAction(Object(yii\base\InlineAction))
+#6 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/Module.php(455): yii\base\Controller->runAction('update', Array)
+#7 /home/ubuntu/workspace/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('workplace/updat...', Array)
+#8 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#9 /home/ubuntu/workspace/web/index.php(12): yii\base\Application->run()
+#10 {main}
+2016-01-14 10:58:37 [10.240.0.173][5][-][info][application] $_GET = [
+    'id' => '5'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => '9q0co3flkf2a05mp290n5459l1'
+    '_csrf' => 'e235b6d7c3580228fbbe127b9b8aa6d961059f3859fee31cfbf01a913a6ad80ea:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"pbaHzKviDNESer2SSnOWrsLPVrqyN12E\";}'
+    'XDEBUG_SESSION' => 'cloud9ide'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 5
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'yii2-pm-slavam1.c9users.io'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; WOW64; rv:43.0) Gecko/20100101 Firefox/43.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'https://yii2-pm-slavam1.c9users.io/web/workplace/view?id=5'
+    'HTTP_COOKIE' => 'PHPSESSID=9q0co3flkf2a05mp290n5459l1; _csrf=e235b6d7c3580228fbbe127b9b8aa6d961059f3859fee31cfbf01a913a6ad80ea%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22pbaHzKviDNESer2SSnOWrsLPVrqyN12E%22%3B%7D; XDEBUG_SESSION=cloud9ide'
+    'HTTP_X_FORWARDED_PROTO' => 'https'
+    'HTTP_X_FORWARDED_PORT' => '443'
+    'HTTP_X_REGION' => 'eu'
+    'HTTP_X_FORWARDED_FOR' => '46.150.97.80'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => '/home/ubuntu/.nvm/versions/node/v4.1.1/bin:/usr/local/rvm/gems/ruby-2.2.1/bin:/usr/local/rvm/gems/ruby-2.2.1@global/bin:/usr/local/rvm/rubies/ruby-2.2.1/bin:/mnt/shared/bin:/home/ubuntu/workspace/node_modules/.bin:/home/ubuntu/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/mnt/shared/sbin:/opt/gitl:/opt/go/bin:/mnt/shared/c9/app.nw/bin:/usr/local/rvm/bin'
+    'LD_LIBRARY_PATH' => '~/.c9/local/lib'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Ubuntu) Server at yii2-pm-slavam1.c9users.io Port 443</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Ubuntu)'
+    'SERVER_NAME' => 'yii2-pm-slavam1.c9users.io'
+    'SERVER_ADDR' => '172.17.65.181'
+    'SERVER_PORT' => '443'
+    'REMOTE_ADDR' => '10.240.0.173'
+    'DOCUMENT_ROOT' => '/home/ubuntu/workspace'
+    'REQUEST_SCHEME' => 'https'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/home/ubuntu/workspace'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => '/home/ubuntu/workspace/web/index.php'
+    'REMOTE_PORT' => '49052'
+    'REDIRECT_QUERY_STRING' => 'id=5'
+    'REDIRECT_URL' => '/web/workplace/update'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'id=5'
+    'REQUEST_URI' => '/web/workplace/update?id=5'
+    'SCRIPT_NAME' => '/web/index.php'
+    'PHP_SELF' => '/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1452758317.523
+    'REQUEST_TIME' => 1452758317
+]
+2016-01-14 11:10:40 [10.240.0.174][5][-][error][yii\web\HttpException:403] exception 'yii\web\ForbiddenHttpException' with message 'Вам не разрешено производить данное действие.' in /home/ubuntu/workspace/vendor/mdmsoft/yii2-admin/components/AccessControl.php:96
+Stack trace:
+#0 /home/ubuntu/workspace/vendor/mdmsoft/yii2-admin/components/AccessControl.php(81): mdm\admin\components\AccessControl->denyAccess(Object(yii\web\User))
+#1 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/ActionFilter.php(71): mdm\admin\components\AccessControl->beforeAction(Object(yii\base\InlineAction))
+#2 [internal function]: yii\base\ActionFilter->beforeFilter(Object(yii\base\ActionEvent))
+#3 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/Component.php(541): call_user_func(Array, Object(yii\base\ActionEvent))
+#4 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/Module.php(607): yii\base\Component->trigger('beforeAction', Object(yii\base\ActionEvent))
+#5 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/Controller.php(139): yii\base\Module->beforeAction(Object(yii\base\InlineAction))
+#6 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/Module.php(455): yii\base\Controller->runAction('update', Array)
+#7 /home/ubuntu/workspace/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('resume/update', Array)
+#8 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#9 /home/ubuntu/workspace/web/index.php(12): yii\base\Application->run()
+#10 {main}
+2016-01-14 11:10:40 [10.240.0.174][5][-][info][application] $_GET = [
+    'id' => '2'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => '9q0co3flkf2a05mp290n5459l1'
+    '_csrf' => 'e235b6d7c3580228fbbe127b9b8aa6d961059f3859fee31cfbf01a913a6ad80ea:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"pbaHzKviDNESer2SSnOWrsLPVrqyN12E\";}'
+    'XDEBUG_SESSION' => 'cloud9ide'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 5
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'yii2-pm-slavam1.c9users.io'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; WOW64; rv:43.0) Gecko/20100101 Firefox/43.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'https://yii2-pm-slavam1.c9users.io/web/resume/view?id=2'
+    'HTTP_COOKIE' => 'PHPSESSID=9q0co3flkf2a05mp290n5459l1; _csrf=e235b6d7c3580228fbbe127b9b8aa6d961059f3859fee31cfbf01a913a6ad80ea%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22pbaHzKviDNESer2SSnOWrsLPVrqyN12E%22%3B%7D; XDEBUG_SESSION=cloud9ide'
+    'HTTP_X_FORWARDED_PROTO' => 'https'
+    'HTTP_X_FORWARDED_PORT' => '443'
+    'HTTP_X_REGION' => 'eu'
+    'HTTP_X_FORWARDED_FOR' => '46.150.97.80'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => '/home/ubuntu/.nvm/versions/node/v4.1.1/bin:/usr/local/rvm/gems/ruby-2.2.1/bin:/usr/local/rvm/gems/ruby-2.2.1@global/bin:/usr/local/rvm/rubies/ruby-2.2.1/bin:/mnt/shared/bin:/home/ubuntu/workspace/node_modules/.bin:/home/ubuntu/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/mnt/shared/sbin:/opt/gitl:/opt/go/bin:/mnt/shared/c9/app.nw/bin:/usr/local/rvm/bin'
+    'LD_LIBRARY_PATH' => '~/.c9/local/lib'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Ubuntu) Server at yii2-pm-slavam1.c9users.io Port 443</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Ubuntu)'
+    'SERVER_NAME' => 'yii2-pm-slavam1.c9users.io'
+    'SERVER_ADDR' => '172.17.65.181'
+    'SERVER_PORT' => '443'
+    'REMOTE_ADDR' => '10.240.0.174'
+    'DOCUMENT_ROOT' => '/home/ubuntu/workspace'
+    'REQUEST_SCHEME' => 'https'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/home/ubuntu/workspace'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => '/home/ubuntu/workspace/web/index.php'
+    'REMOTE_PORT' => '37234'
+    'REDIRECT_QUERY_STRING' => 'id=2'
+    'REDIRECT_URL' => '/web/resume/update'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'id=2'
+    'REQUEST_URI' => '/web/resume/update?id=2'
+    'SCRIPT_NAME' => '/web/index.php'
+    'PHP_SELF' => '/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1452759040.562
+    'REQUEST_TIME' => 1452759040
+]
+2016-01-14 11:14:16 [10.240.0.176][5][-][error][yii\web\HttpException:403] exception 'yii\web\ForbiddenHttpException' with message 'Вам не разрешено производить данное действие.' in /home/ubuntu/workspace/vendor/mdmsoft/yii2-admin/components/AccessControl.php:96
+Stack trace:
+#0 /home/ubuntu/workspace/vendor/mdmsoft/yii2-admin/components/AccessControl.php(81): mdm\admin\components\AccessControl->denyAccess(Object(yii\web\User))
+#1 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/ActionFilter.php(71): mdm\admin\components\AccessControl->beforeAction(Object(yii\base\InlineAction))
+#2 [internal function]: yii\base\ActionFilter->beforeFilter(Object(yii\base\ActionEvent))
+#3 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/Component.php(541): call_user_func(Array, Object(yii\base\ActionEvent))
+#4 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/Module.php(607): yii\base\Component->trigger('beforeAction', Object(yii\base\ActionEvent))
+#5 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/Controller.php(139): yii\base\Module->beforeAction(Object(yii\base\InlineAction))
+#6 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/Module.php(455): yii\base\Controller->runAction('update', Array)
+#7 /home/ubuntu/workspace/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('vacancy/update', Array)
+#8 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#9 /home/ubuntu/workspace/web/index.php(12): yii\base\Application->run()
+#10 {main}
+2016-01-14 11:14:16 [10.240.0.176][5][-][info][application] $_GET = [
+    'id' => '2'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => '9q0co3flkf2a05mp290n5459l1'
+    '_csrf' => 'e235b6d7c3580228fbbe127b9b8aa6d961059f3859fee31cfbf01a913a6ad80ea:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"pbaHzKviDNESer2SSnOWrsLPVrqyN12E\";}'
+    'XDEBUG_SESSION' => 'cloud9ide'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 5
+    '__returnUrl' => 'https://yii2-pm-slavam1.c9users.io/web/resume/view?id=2'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'yii2-pm-slavam1.c9users.io'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; WOW64; rv:43.0) Gecko/20100101 Firefox/43.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'https://yii2-pm-slavam1.c9users.io/web/vacancy/view?id=2'
+    'HTTP_COOKIE' => 'PHPSESSID=9q0co3flkf2a05mp290n5459l1; _csrf=e235b6d7c3580228fbbe127b9b8aa6d961059f3859fee31cfbf01a913a6ad80ea%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22pbaHzKviDNESer2SSnOWrsLPVrqyN12E%22%3B%7D; XDEBUG_SESSION=cloud9ide'
+    'HTTP_X_FORWARDED_PROTO' => 'https'
+    'HTTP_X_FORWARDED_PORT' => '443'
+    'HTTP_X_REGION' => 'eu'
+    'HTTP_X_FORWARDED_FOR' => '46.150.97.80'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => '/home/ubuntu/.nvm/versions/node/v4.1.1/bin:/usr/local/rvm/gems/ruby-2.2.1/bin:/usr/local/rvm/gems/ruby-2.2.1@global/bin:/usr/local/rvm/rubies/ruby-2.2.1/bin:/mnt/shared/bin:/home/ubuntu/workspace/node_modules/.bin:/home/ubuntu/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/mnt/shared/sbin:/opt/gitl:/opt/go/bin:/mnt/shared/c9/app.nw/bin:/usr/local/rvm/bin'
+    'LD_LIBRARY_PATH' => '~/.c9/local/lib'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Ubuntu) Server at yii2-pm-slavam1.c9users.io Port 443</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Ubuntu)'
+    'SERVER_NAME' => 'yii2-pm-slavam1.c9users.io'
+    'SERVER_ADDR' => '172.17.65.181'
+    'SERVER_PORT' => '443'
+    'REMOTE_ADDR' => '10.240.0.176'
+    'DOCUMENT_ROOT' => '/home/ubuntu/workspace'
+    'REQUEST_SCHEME' => 'https'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/home/ubuntu/workspace'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => '/home/ubuntu/workspace/web/index.php'
+    'REMOTE_PORT' => '34074'
+    'REDIRECT_QUERY_STRING' => 'id=2'
+    'REDIRECT_URL' => '/web/vacancy/update'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'id=2'
+    'REQUEST_URI' => '/web/vacancy/update?id=2'
+    'SCRIPT_NAME' => '/web/index.php'
+    'PHP_SELF' => '/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1452759256.075
+    'REQUEST_TIME' => 1452759256
+]
+2016-01-14 11:15:34 [10.240.0.174][5][-][error][yii\web\HttpException:403] exception 'yii\web\ForbiddenHttpException' with message 'Вам не разрешено производить данное действие.' in /home/ubuntu/workspace/vendor/mdmsoft/yii2-admin/components/AccessControl.php:96
+Stack trace:
+#0 /home/ubuntu/workspace/vendor/mdmsoft/yii2-admin/components/AccessControl.php(81): mdm\admin\components\AccessControl->denyAccess(Object(yii\web\User))
+#1 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/ActionFilter.php(71): mdm\admin\components\AccessControl->beforeAction(Object(yii\base\InlineAction))
+#2 [internal function]: yii\base\ActionFilter->beforeFilter(Object(yii\base\ActionEvent))
+#3 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/Component.php(541): call_user_func(Array, Object(yii\base\ActionEvent))
+#4 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/Module.php(607): yii\base\Component->trigger('beforeAction', Object(yii\base\ActionEvent))
+#5 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/Controller.php(139): yii\base\Module->beforeAction(Object(yii\base\InlineAction))
+#6 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/Module.php(455): yii\base\Controller->runAction('update', Array)
+#7 /home/ubuntu/workspace/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('doc-inn/update', Array)
+#8 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#9 /home/ubuntu/workspace/web/index.php(12): yii\base\Application->run()
+#10 {main}
+2016-01-14 11:15:34 [10.240.0.174][5][-][info][application] $_GET = [
+    'id' => '1'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => '9q0co3flkf2a05mp290n5459l1'
+    '_csrf' => 'e235b6d7c3580228fbbe127b9b8aa6d961059f3859fee31cfbf01a913a6ad80ea:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"pbaHzKviDNESer2SSnOWrsLPVrqyN12E\";}'
+    'XDEBUG_SESSION' => 'cloud9ide'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 5
+    '__returnUrl' => 'https://yii2-pm-slavam1.c9users.io/web/vacancy/view?id=2'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'yii2-pm-slavam1.c9users.io'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; WOW64; rv:43.0) Gecko/20100101 Firefox/43.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'https://yii2-pm-slavam1.c9users.io/web/doc-inn/view?id=1'
+    'HTTP_COOKIE' => 'PHPSESSID=9q0co3flkf2a05mp290n5459l1; _csrf=e235b6d7c3580228fbbe127b9b8aa6d961059f3859fee31cfbf01a913a6ad80ea%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22pbaHzKviDNESer2SSnOWrsLPVrqyN12E%22%3B%7D; XDEBUG_SESSION=cloud9ide'
+    'HTTP_X_FORWARDED_PROTO' => 'https'
+    'HTTP_X_FORWARDED_PORT' => '443'
+    'HTTP_X_REGION' => 'eu'
+    'HTTP_X_FORWARDED_FOR' => '46.150.97.80'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => '/home/ubuntu/.nvm/versions/node/v4.1.1/bin:/usr/local/rvm/gems/ruby-2.2.1/bin:/usr/local/rvm/gems/ruby-2.2.1@global/bin:/usr/local/rvm/rubies/ruby-2.2.1/bin:/mnt/shared/bin:/home/ubuntu/workspace/node_modules/.bin:/home/ubuntu/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/mnt/shared/sbin:/opt/gitl:/opt/go/bin:/mnt/shared/c9/app.nw/bin:/usr/local/rvm/bin'
+    'LD_LIBRARY_PATH' => '~/.c9/local/lib'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Ubuntu) Server at yii2-pm-slavam1.c9users.io Port 443</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Ubuntu)'
+    'SERVER_NAME' => 'yii2-pm-slavam1.c9users.io'
+    'SERVER_ADDR' => '172.17.65.181'
+    'SERVER_PORT' => '443'
+    'REMOTE_ADDR' => '10.240.0.174'
+    'DOCUMENT_ROOT' => '/home/ubuntu/workspace'
+    'REQUEST_SCHEME' => 'https'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/home/ubuntu/workspace'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => '/home/ubuntu/workspace/web/index.php'
+    'REMOTE_PORT' => '46902'
+    'REDIRECT_QUERY_STRING' => 'id=1'
+    'REDIRECT_URL' => '/web/doc-inn/update'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'id=1'
+    'REQUEST_URI' => '/web/doc-inn/update?id=1'
+    'SCRIPT_NAME' => '/web/index.php'
+    'PHP_SELF' => '/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1452759334.182
+    'REQUEST_TIME' => 1452759334
+]
+2016-01-14 11:16:06 [10.240.0.177][5][-][error][yii\web\HttpException:403] exception 'yii\web\ForbiddenHttpException' with message 'Вам не разрешено производить данное действие.' in /home/ubuntu/workspace/vendor/mdmsoft/yii2-admin/components/AccessControl.php:96
+Stack trace:
+#0 /home/ubuntu/workspace/vendor/mdmsoft/yii2-admin/components/AccessControl.php(81): mdm\admin\components\AccessControl->denyAccess(Object(yii\web\User))
+#1 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/ActionFilter.php(71): mdm\admin\components\AccessControl->beforeAction(Object(yii\base\InlineAction))
+#2 [internal function]: yii\base\ActionFilter->beforeFilter(Object(yii\base\ActionEvent))
+#3 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/Component.php(541): call_user_func(Array, Object(yii\base\ActionEvent))
+#4 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/Module.php(607): yii\base\Component->trigger('beforeAction', Object(yii\base\ActionEvent))
+#5 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/Controller.php(139): yii\base\Module->beforeAction(Object(yii\base\InlineAction))
+#6 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/Module.php(455): yii\base\Controller->runAction('update', Array)
+#7 /home/ubuntu/workspace/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('doc-passport/up...', Array)
+#8 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#9 /home/ubuntu/workspace/web/index.php(12): yii\base\Application->run()
+#10 {main}
+2016-01-14 11:16:06 [10.240.0.177][5][-][info][application] $_GET = [
+    'id' => '1'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => '9q0co3flkf2a05mp290n5459l1'
+    '_csrf' => 'e235b6d7c3580228fbbe127b9b8aa6d961059f3859fee31cfbf01a913a6ad80ea:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"pbaHzKviDNESer2SSnOWrsLPVrqyN12E\";}'
+    'XDEBUG_SESSION' => 'cloud9ide'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 5
+    '__returnUrl' => 'https://yii2-pm-slavam1.c9users.io/web/vacancy/view?id=2'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'yii2-pm-slavam1.c9users.io'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; WOW64; rv:43.0) Gecko/20100101 Firefox/43.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'https://yii2-pm-slavam1.c9users.io/web/doc-passport/view?id=1'
+    'HTTP_COOKIE' => 'PHPSESSID=9q0co3flkf2a05mp290n5459l1; _csrf=e235b6d7c3580228fbbe127b9b8aa6d961059f3859fee31cfbf01a913a6ad80ea%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22pbaHzKviDNESer2SSnOWrsLPVrqyN12E%22%3B%7D; XDEBUG_SESSION=cloud9ide'
+    'HTTP_X_FORWARDED_PROTO' => 'https'
+    'HTTP_X_FORWARDED_PORT' => '443'
+    'HTTP_X_REGION' => 'eu'
+    'HTTP_X_FORWARDED_FOR' => '46.150.97.80'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => '/home/ubuntu/.nvm/versions/node/v4.1.1/bin:/usr/local/rvm/gems/ruby-2.2.1/bin:/usr/local/rvm/gems/ruby-2.2.1@global/bin:/usr/local/rvm/rubies/ruby-2.2.1/bin:/mnt/shared/bin:/home/ubuntu/workspace/node_modules/.bin:/home/ubuntu/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/mnt/shared/sbin:/opt/gitl:/opt/go/bin:/mnt/shared/c9/app.nw/bin:/usr/local/rvm/bin'
+    'LD_LIBRARY_PATH' => '~/.c9/local/lib'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Ubuntu) Server at yii2-pm-slavam1.c9users.io Port 443</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Ubuntu)'
+    'SERVER_NAME' => 'yii2-pm-slavam1.c9users.io'
+    'SERVER_ADDR' => '172.17.65.181'
+    'SERVER_PORT' => '443'
+    'REMOTE_ADDR' => '10.240.0.177'
+    'DOCUMENT_ROOT' => '/home/ubuntu/workspace'
+    'REQUEST_SCHEME' => 'https'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/home/ubuntu/workspace'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => '/home/ubuntu/workspace/web/index.php'
+    'REMOTE_PORT' => '60964'
+    'REDIRECT_QUERY_STRING' => 'id=1'
+    'REDIRECT_URL' => '/web/doc-passport/update'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'id=1'
+    'REQUEST_URI' => '/web/doc-passport/update?id=1'
+    'SCRIPT_NAME' => '/web/index.php'
+    'PHP_SELF' => '/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1452759366.684
+    'REQUEST_TIME' => 1452759366
+]
+2016-01-14 11:18:17 [10.240.0.175][1][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "report/1".' in /home/ubuntu/workspace/vendor/yiisoft/yii2/base/Module.php:461
+Stack trace:
+#0 /home/ubuntu/workspace/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('report/1', Array)
+#1 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /home/ubuntu/workspace/web/index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Страница не найдена.' in /home/ubuntu/workspace/vendor/yiisoft/yii2/web/Application.php:96
+Stack trace:
+#0 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /home/ubuntu/workspace/web/index.php(12): yii\base\Application->run()
+#2 {main}
+2016-01-14 11:18:17 [10.240.0.175][1][-][info][application] $_COOKIE = [
+    'PHPSESSID' => '5n2eh79uefi4ih71k1u114ftr4'
+    '_csrf' => 'e235b6d7c3580228fbbe127b9b8aa6d961059f3859fee31cfbf01a913a6ad80ea:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"pbaHzKviDNESer2SSnOWrsLPVrqyN12E\";}'
+    'XDEBUG_SESSION' => 'cloud9ide'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+    '__returnUrl' => 'https://yii2-pm-slavam1.c9users.io/web/experience/view?id=1'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'yii2-pm-slavam1.c9users.io'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; WOW64; rv:43.0) Gecko/20100101 Firefox/43.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'https://yii2-pm-slavam1.c9users.io/web/experience/update?id=1'
+    'HTTP_COOKIE' => 'PHPSESSID=5n2eh79uefi4ih71k1u114ftr4; _csrf=e235b6d7c3580228fbbe127b9b8aa6d961059f3859fee31cfbf01a913a6ad80ea%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22pbaHzKviDNESer2SSnOWrsLPVrqyN12E%22%3B%7D; XDEBUG_SESSION=cloud9ide'
+    'HTTP_X_FORWARDED_PROTO' => 'https'
+    'HTTP_X_FORWARDED_PORT' => '443'
+    'HTTP_X_REGION' => 'eu'
+    'HTTP_X_FORWARDED_FOR' => '46.150.97.80'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => '/home/ubuntu/.nvm/versions/node/v4.1.1/bin:/usr/local/rvm/gems/ruby-2.2.1/bin:/usr/local/rvm/gems/ruby-2.2.1@global/bin:/usr/local/rvm/rubies/ruby-2.2.1/bin:/mnt/shared/bin:/home/ubuntu/workspace/node_modules/.bin:/home/ubuntu/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/mnt/shared/sbin:/opt/gitl:/opt/go/bin:/mnt/shared/c9/app.nw/bin:/usr/local/rvm/bin'
+    'LD_LIBRARY_PATH' => '~/.c9/local/lib'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Ubuntu) Server at yii2-pm-slavam1.c9users.io Port 443</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Ubuntu)'
+    'SERVER_NAME' => 'yii2-pm-slavam1.c9users.io'
+    'SERVER_ADDR' => '172.17.65.181'
+    'SERVER_PORT' => '443'
+    'REMOTE_ADDR' => '10.240.0.175'
+    'DOCUMENT_ROOT' => '/home/ubuntu/workspace'
+    'REQUEST_SCHEME' => 'https'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/home/ubuntu/workspace'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => '/home/ubuntu/workspace/web/index.php'
+    'REMOTE_PORT' => '55026'
+    'REDIRECT_URL' => '/web/report/1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/web/report/1'
+    'SCRIPT_NAME' => '/web/index.php'
+    'PHP_SELF' => '/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1452759497.557
+    'REQUEST_TIME' => 1452759497
+]

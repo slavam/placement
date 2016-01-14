@@ -34,12 +34,12 @@ $this->params['breadcrumbs'][] = $this->title;
             'person_id' => [
                 'attribute'=>'person_id',
                 'value'=>'person.fullname',
-                'filter'=>ArrayHelper::map(\app\models\Person::find()->active()->all(), 'id', 'lname'),
+                'filter'=>ArrayHelper::map(\app\models\Person::find()->active()->orderBy('lname')->all(), 'id', 'lname'),
             ],
             'professionNames' => [
                 'attribute'=>'resumeProfessions',
                 'value'=>'professionNames',
-                'filter'=>ArrayHelper::map(\app\models\Profession::find()->active()->all(), 'id', 'name'),
+                'filter'=>ArrayHelper::map(\app\models\Profession::find()->active()->orderBy('name')->all(), 'id', 'name'),
             ],
             'salary',
 
